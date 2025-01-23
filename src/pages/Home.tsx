@@ -46,7 +46,7 @@ const testimonials = [
     id: 1,
     name: 'Wade Warren',
     role: 'CEO, Gainline',
-    content: 'Our experience with Estatein was outstanding. Their team\'s dedication and professionalism made finding our dream home a breeze.',
+    content: 'Our experience with Panam-Properties was outstanding. Their team\'s dedication and professionalism made finding our dream home a breeze.',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=100&h=100&q=80'
   },
@@ -54,7 +54,7 @@ const testimonials = [
     id: 2,
     name: 'Emilie Thomson',
     role: 'Tech Director',
-    content: 'Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn\'t be happier with the result.',
+    content: 'Panam-Properties provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn\'t be happier with the result.',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80'
   },
@@ -76,7 +76,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-8">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-              Discover Your Dream Property with Estatein
+              Discover Your Dream Property with Panam-Properties
             </h1>
             <p className="text-navy/70">
               Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.

@@ -104,7 +104,7 @@ export default function Services() {
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold mb-4">Elevate Your Real Estate Experience</h1>
           <p className="text-gray-400">
-            Welcome to Estatein, where your real estate aspirations meet expert guidance. Explore our comprehensive range of services, each designed to cater to your unique needs and desires.
+            Welcome to Panam-Properties, where your real estate aspirations meet expert guidance. Explore our comprehensive range of services, each designed to cater to your unique needs and desires.
           </p>
         </div>
       </section>
@@ -113,7 +113,7 @@ export default function Services() {
       <section className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-4">Unlock Property Value</h2>
         <p className="text-gray-400 mb-8">
-          Selling your property should be a rewarding experience, and at Estatein, we make sure it is. Our Property Selling Service is designed to maximize the value of your property, ensuring you get the best deal possible. Explore the categories below to see how we can help at every step of your selling journey.
+          Selling your property should be a rewarding experience, and at Panam-Properties, we make sure it is. Our Property Selling Service is designed to maximize the value of your property, ensuring you get the best deal possible. Explore the categories below to see how we can help at every step of your selling journey.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
@@ -126,7 +126,7 @@ export default function Services() {
       <section className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-4">Effortless Property Management</h2>
         <p className="text-gray-400 mb-8">
-          Owning a property should be a pleasure, not a hassle. Estatein's Property Management Service takes the stress out of property ownership, offering comprehensive solutions tailored to your needs. Explore the categories below to see how we can make property management effortless for you.
+          Owning a property should be a pleasure, not a hassle. Panam-Properties's Property Management Service takes the stress out of property ownership, offering comprehensive solutions tailored to your needs. Explore the categories below to see how we can make property management effortless for you.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {managementServices.map((service, index) => (

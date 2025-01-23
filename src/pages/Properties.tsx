@@ -48,7 +48,7 @@ export default function Properties() {
         <div className="max-w-2xl mx-auto text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">Find Your Dream Property</h1>
           <p className="text-navy/70">
-            Welcome to Estatein, where your dream property awaits in every corner of our beautiful world. 
+            Welcome to Panam-Properties, where your dream property awaits in every corner of our beautiful world. 
             Explore our curated selection of properties, each offering a unique story and a chance to redefine your life.
           </p>
         </div>

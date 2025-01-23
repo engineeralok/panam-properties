@@ -6,9 +6,9 @@ export default function Contact() {
     <div className="py-20 space-y-20">
       {/* Hero Section */}
       <section className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-4">Get in Touch with Estatein</h1>
+        <h1 className="text-4xl font-bold mb-4">Get in Touch with Panam-Properties</h1>
         <p className="text-gray-400 max-w-2xl">
-          Welcome to Estatein's Contact Us page. We're here to assist you with any inquiries, requests, or feedback you may have. Whether you're looking to buy or sell a property, explore investment opportunities, or simply want to connect, send us a message below.
+          Welcome to Panam-Properties's Contact Us page. We're here to assist you with any inquiries, requests, or feedback you may have. Whether you're looking to buy or sell a property, explore investment opportunities, or simply want to connect, send us a message below.
         </p>
       </section>
 
@@ -17,7 +17,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="bg-gray-900 p-6 rounded-xl">
             <Mail className="w-6 h-6 text-purple-600 mb-2" />
-            <p className="text-gray-400">info@estatein.com</p>
+            <p className="text-gray-400">info@Panam-Properties.com</p>
           </div>
           <div className="bg-gray-900 p-6 rounded-xl">
             <Phone className="w-6 h-6 text-purple-600 mb-2" />
@@ -109,15 +109,15 @@ export default function Contact() {
           {/* Main Headquarters */}
           <div className="bg-gray-900 p-8 rounded-xl">
             <h3 className="text-xl font-bold mb-4">Main Headquarters</h3>
-            <p className="text-lg mb-2">123 Estatein Plaza, City Center, Metropolis</p>
+            <p className="text-lg mb-2">123 Panam-Properties Plaza, City Center, Metropolis</p>
             <p className="text-gray-400 mb-6">
-              Our main headquarters serves as the heart of Estatein. Located in the bustling city
+              Our main headquarters serves as the heart of Panam-Properties. Located in the bustling city
               center, here you'll find our team of experts ready to assist with all your real estate needs.
             </p>
             <div className="space-y-4 mb-6">
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-purple-600" />
-                <span>info@estatein.com</span>
+                <span>info@Panam-Properties.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-purple-600" />
@@ -138,13 +138,13 @@ export default function Contact() {
             <h3 className="text-xl font-bold mb-4">Regional Office</h3>
             <p className="text-lg mb-2">456 Urban Avenue, Downtown District, Metropolis</p>
             <p className="text-gray-400 mb-6">
-              Estatein's presence extends to multiple regions, each with its own dynamic real estate
+              Panam-Properties's presence extends to multiple regions, each with its own dynamic real estate
               landscape. Our regional offices are strategically located to best serve our customers.
             </p>
             <div className="space-y-4 mb-6">
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-purple-600" />
-                <span>regional@estatein.com</span>
+                <span>regional@Panam-Properties.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-purple-600" />
@@ -164,7 +164,7 @@ export default function Contact() {
 
       {/* Company Gallery */}
       <section className="container mx-auto px-4">
-        <h2 className="text-2xl font-bold mb-8">Explore Estatein's World</h2>
+        <h2 className="text-2xl font-bold mb-8">Explore Panam-Properties's World</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           <div className="aspect-video">
             <img
@@ -195,7 +195,7 @@ export default function Contact() {
         <div className="bg-gray-900 rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold mb-4">Start Your Real Estate Journey Today</h2>
           <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
-            Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Estatein is here to assist you every step of the way.
+            Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Panam-Properties is here to assist you every step of the way.
           </p>
           <button className="bg-purple-600 px-6 py-3 rounded-lg hover:bg-purple-700">
             Explore Properties

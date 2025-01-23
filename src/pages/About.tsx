@@ -120,7 +120,7 @@ export default function About() {
 
       {/* Experience Steps */}
       <section className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-12">Navigating the Estatein Experience</h2>
+        <h2 className="text-3xl font-bold mb-12">Navigating the Panam-Properties Experience</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {steps.map((step, index) => (
             <div key={index} className="bg-silver p-8 rounded-xl shadow-lg border border-silver/20">
@@ -134,7 +134,7 @@ export default function About() {
 
       {/* Team Section */}
       <section className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-12">Meet the Estatein Team</h2>
+        <h2 className="text-3xl font-bold mb-12">Meet the Panam-Properties Team</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {team.map((member, index) => (
             <TeamMember key={index} {...member} />
