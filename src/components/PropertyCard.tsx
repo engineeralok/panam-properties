@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 
 export interface Property {
@@ -20,7 +21,7 @@ interface PropertyCardProps {
 
 export default function PropertyCard({ property, featured = false }: PropertyCardProps) {
   return (
-    <div className="bg-gray-900 rounded-xl overflow-hidden">
+    <div className="bg-silver rounded-xl overflow-hidden shadow-lg border border-silver/20">
       <img 
         src={property.image} 
         alt={property.title}
@@ -28,22 +29,22 @@ export default function PropertyCard({ property, featured = false }: PropertyCar
       />
       <div className="p-6">
         {property.category && (
-          <p className="text-sm text-gray-400 mb-2">{property.category}</p>
+          <p className="text-sm text-navy/70 mb-2">{property.category}</p>
         )}
-        <h3 className="text-xl font-bold mb-2">{property.title}</h3>
-        {featured && <p className="text-gray-400 mb-4">{property.description}</p>}
+        <h3 className="text-xl font-bold mb-2 text-navy">{property.title}</h3>
+        {featured && <p className="text-navy/70 mb-4">{property.description}</p>}
         <div className="flex flex-wrap justify-between items-center mb-4">
-          <div className="flex flex-wrap gap-4 text-sm text-gray-400">
+          <div className="flex flex-wrap gap-4 text-sm text-navy/70">
             <span>{property.bedrooms} Bedrooms</span>
             <span>{property.bathrooms} Bathrooms</span>
             <span>{property.area} m²</span>
           </div>
         </div>
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-          <span className="text-2xl font-bold">${property.price.toLocaleString()}</span>
+          <span className="text-2xl font-bold text-navy">${property.price.toLocaleString()}</span>
           <Link 
             to={`/properties/${property.id}`}
-            className="bg-purple-600 px-4 py-2 rounded-lg hover:bg-purple-700 w-full sm:w-auto text-center"
+            className="bg-gold text-white px-4 py-2 rounded-lg hover:bg-gold/90 w-full sm:w-auto text-center"
           >
             View Property Details
           </Link>

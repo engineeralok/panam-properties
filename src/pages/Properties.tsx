@@ -1,3 +1,4 @@
+
 import PropertySearch from '../components/PropertySearch';
 import PropertyCard, { Property } from '../components/PropertyCard';
 
@@ -38,7 +39,6 @@ const properties: Property[] = [
     description: 'Find tranquility in this countryside haven. This charming cottage is nestled...',
     location: 'Vermont'
   },
-  // Add more properties as needed
 ];
 
 export default function Properties() {
@@ -47,8 +47,8 @@ export default function Properties() {
       <section className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">Find Your Dream Property</h1>
-          <p className="text-gray-400">
-            Welcome to Panam-Properties, where your dream property awaits in every corner of our beautiful world. 
+          <p className="text-navy/70">
+            Welcome to Estatein, where your dream property awaits in every corner of our beautiful world. 
             Explore our curated selection of properties, each offering a unique story and a chance to redefine your life.
           </p>
         </div>
@@ -65,13 +65,13 @@ export default function Properties() {
       </section>
 
       <section className="container mx-auto px-4">
-        <div className="bg-gray-900 rounded-xl p-8 text-center">
-          <h2 className="text-2xl font-bold mb-4">Let's Make It Happen</h2>
-          <p className="text-gray-400 mb-6">
+        <div className="bg-silver rounded-xl p-8 text-center shadow-lg border border-silver/20">
+          <h2 className="text-2xl font-bold mb-4 text-navy">Let's Make It Happen</h2>
+          <p className="text-navy/70 mb-6">
             Ready to take the first step toward your dream property? Fill out the form below, 
             and our real estate wizards will work their magic to find your perfect match.
           </p>
-          <button className="bg-purple-600 px-6 py-3 rounded-lg hover:bg-purple-700">
+          <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
             Contact an Agent
           </button>
         </div>

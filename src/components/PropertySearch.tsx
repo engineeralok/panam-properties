@@ -1,3 +1,4 @@
+
 import { Search } from 'lucide-react';
 
 const filters = {
@@ -15,38 +16,38 @@ export default function PropertySearch() {
         <input
           type="text"
           placeholder="Search For A Property"
-          className="w-full bg-gray-900 rounded-lg py-3 px-4 pr-12 focus:outline-none focus:ring-2 focus:ring-purple-600"
+          className="w-full bg-silver rounded-lg py-3 px-4 pr-12 focus:outline-none focus:ring-2 focus:ring-gold text-navy placeholder:text-navy/50"
         />
-        <button className="absolute right-3 top-1/2 -translate-y-1/2 bg-purple-600 p-2 rounded-lg hover:bg-purple-700">
+        <button className="absolute right-3 top-1/2 -translate-y-1/2 bg-gold p-2 rounded-lg hover:bg-gold/90 text-white">
           <Search className="w-4 h-4" />
         </button>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-        <select className="bg-gray-900 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600">
+        <select className="bg-silver rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-gold text-navy">
           <option value="">Location</option>
           {filters.location.map(option => (
             <option key={option} value={option}>{option}</option>
           ))}
         </select>
-        <select className="bg-gray-900 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600">
+        <select className="bg-silver rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-gold text-navy">
           <option value="">Property Type</option>
           {filters.propertyType.map(option => (
             <option key={option} value={option}>{option}</option>
           ))}
         </select>
-        <select className="bg-gray-900 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600">
+        <select className="bg-silver rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-gold text-navy">
           <option value="">Price Range</option>
           {filters.priceRange.map(option => (
             <option key={option} value={option}>{option}</option>
           ))}
         </select>
-        <select className="bg-gray-900 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600">
+        <select className="bg-silver rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-gold text-navy">
           <option value="">Property Size</option>
           {filters.propertySize.map(option => (
             <option key={option} value={option}>{option}</option>
           ))}
         </select>
-        <select className="bg-gray-900 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600">
+        <select className="bg-silver rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-gold text-navy">
           <option value="">Build Year</option>
           {filters.buildYear.map(option => (
             <option key={option} value={option}>{option}</option>
