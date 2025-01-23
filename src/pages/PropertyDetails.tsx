@@ -1,3 +1,4 @@
+// import { useParams } from 'react-router-dom';
 import PropertyGallery from '../components/PropertyGallery';
 import ContactForm from '../components/ContactForm';
 import { Bed, Bath, Maximize, Info } from 'lucide-react';

@@ -88,7 +88,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-8">
             <h1 className="text-4xl md:text-5xl font-bold">Our Journey</h1>
-            <p className="text-gray-400">
+            <p className="text-navy/70">
               We've been helping people find their dream homes and make smart property investments that transcend the ordinary. Over the years, we've grown from humble beginnings into a full-service real estate powerhouse.
             </p>
             <Stats stats={stats} />
@@ -108,10 +108,10 @@ export default function About() {
         <h2 className="text-3xl font-bold mb-12">Our Values</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {values.map((value, index) => (
-            <div key={index} className="bg-gray-900 p-8 rounded-xl">
+            <div key={index} className="bg-silver p-8 rounded-xl shadow-lg border border-silver/20">
               <span className="text-4xl mb-4 block">{value.icon}</span>
-              <h3 className="text-xl font-bold mb-2">{value.title}</h3>
-              <p className="text-gray-400">{value.description}</p>
+              <h3 className="text-xl font-bold mb-2 text-navy">{value.title}</h3>
+              <p className="text-navy/70">{value.description}</p>
             </div>
           ))}
         </div>
@@ -119,13 +119,13 @@ export default function About() {
 
       {/* Experience Steps */}
       <section className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-12">Navigating the Panam-Properties Experience</h2>
+        <h2 className="text-3xl font-bold mb-12">Navigating the Estatein Experience</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {steps.map((step, index) => (
-            <div key={index} className="bg-gray-900 p-8 rounded-xl">
-              <div className="text-purple-600 font-bold mb-4">Step {index + 1}</div>
-              <h3 className="text-xl font-bold mb-2">{step.title}</h3>
-              <p className="text-gray-400">{step.description}</p>
+            <div key={index} className="bg-silver p-8 rounded-xl shadow-lg border border-silver/20">
+              <div className="text-gold font-bold mb-4">Step {index + 1}</div>
+              <h3 className="text-xl font-bold mb-2 text-navy">{step.title}</h3>
+              <p className="text-navy/70">{step.description}</p>
             </div>
           ))}
         </div>
@@ -133,11 +133,25 @@ export default function About() {
 
       {/* Team Section */}
       <section className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-12">Meet the Panam-Properties Team</h2>
+        <h2 className="text-3xl font-bold mb-12">Meet the Estatein Team</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {team.map((member, index) => (
             <TeamMember key={index} {...member} />
           ))}
+        </div>
+      </section>
+
+      {/* Add CTA Section */}
+      <section className="container mx-auto px-4">
+        <div className="bg-silver rounded-xl p-8 text-center shadow-lg border border-silver/20">
+          <h2 className="text-2xl font-bold mb-4 text-navy">Join Our Journey</h2>
+          <p className="text-navy/70 mb-6">
+            Ready to be part of our story? Whether you're looking to buy, sell, or invest in properties,
+            our team is here to guide you every step of the way.
+          </p>
+          <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
+            Get Started Today
+          </button>
         </div>
       </section>
     </div>
