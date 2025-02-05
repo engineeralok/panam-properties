@@ -6,7 +6,7 @@ import { buttonVariants } from '../theme/components';
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
-  const logoSrc = 'src/assets/panam-properties-logo.png';
+  const logoSrc = '/panam-properties-logo.png';
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
