@@ -6,7 +6,6 @@ import { buttonVariants } from '../theme/components';
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
-  const logoSrc = '/panam-properties-logo.png';
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -37,7 +36,7 @@ export default function Navbar() {
       <nav className="relative">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <img src={logoSrc} alt="Panam Properties Logo" className="w-40 h-auto" />
+            <img src="https://github.com/engineeralok/panam-properties/blob/main/src/assets/panam-properties-logo.png?raw=true" alt="Panam Properties Logo" className="w-40 h-auto" />
           </Link>
           
           {/* Mobile menu button */}
