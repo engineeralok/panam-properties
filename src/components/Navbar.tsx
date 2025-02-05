@@ -1,5 +1,5 @@
-import  { useState } from 'react';
-import { Building2, Menu, X } from 'lucide-react';
+import { useState } from 'react';
+import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTheme } from '../theme/ThemeContext';
 import { buttonVariants } from '../theme/components';
@@ -38,8 +38,7 @@ export default function Navbar() {
       <nav className="relative">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <Building2 className="w-8 h-8 text-gold" />
-            <span className="text-xl font-bold text-navy">{theme.brandName}</span>
+            <img src="../src/assets/panam-properties-logo.png" alt="Panam Properties Logo" className="w-40 h-auto" />
           </Link>
           
           {/* Mobile menu button */}
