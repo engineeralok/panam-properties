@@ -1,11 +1,9 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
-import { useTheme } from '../theme/ThemeContext';
 import { buttonVariants } from '../theme/components';
 
 export default function Navbar() {
-  const { theme } = useTheme();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
