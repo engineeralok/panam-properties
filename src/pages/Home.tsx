@@ -4,8 +4,8 @@ import Stats from '../components/Stats';
 
 const stats = [
   { value: '200+', label: 'Happy Customers' },
-  { value: '10k+', label: 'Properties for Clients' },
-  { value: '16+', label: 'Years of Experience' },
+  { value: '1,000+', label: 'Properties for Clients' },
+  { value: '20+', label: 'Years of Experience' },
 ];
 
 const properties = [
