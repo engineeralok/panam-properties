@@ -4,8 +4,8 @@ import TeamMember from '../components/TeamMember';
 
 const stats = [
   { value: '200+', label: 'Happy Customers' },
-  { value: '10k+', label: 'Properties for Clients' },
-  { value: '16+', label: 'Years of Experience' },
+  { value: '1000+', label: 'Properties for Clients' },
+  { value: '20+', label: 'Years of Experience' },
 ];
 
 const values = [
