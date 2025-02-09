@@ -76,10 +76,10 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-8">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-              At Panam Properties, we're more than just real estate agents – we're investors ourselves who understand your journey. As your trusted partner, we put your interests first and aim to build lasting relationships that extend beyond a single transaction. Whether you're buying, selling, or investing, count on us to be your long-term resource for all things real estate.
+             Your Trusted Partner in Real Estate, Today and Tomorrow
             </h1>
             <p className="text-navy/70">
-              Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.
+              At Panam Properties, we're more than just real estate agents – we're investors ourselves who understand your journey. As your trusted partner, we put your interests first and aim to build lasting relationships that extend beyond a single transaction. Whether you're buying, selling, or investing, count on us to be your long-term resource for all things real estate.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
