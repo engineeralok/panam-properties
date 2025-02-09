@@ -197,11 +197,9 @@ export default function Home() {
       {/* Add CTA Section */}
       <section className="container mx-auto px-4 py-20">
         <div className="bg-silver rounded-xl p-8 text-center shadow-lg border border-silver/20">
-          <h2 className="text-2xl font-bold mb-4 text-navy">Ready to Find Your Dream Home?</h2>
+          <h2 className="text-2xl font-bold mb-4 text-navy">Want to learn more?</h2>
           <p className="text-navy/70 mb-6">
-            Take the first step towards your perfect property. Our expert team is here to guide you
-            through every step of your real estate journey.
-          </p>
+Whether you're ready to explore properties, discuss your real estate goals, or need guidance on tax matters, we're here to help. Reach out anytime for a conversation          </p>
           <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
             Start Your Search
           </button>
