@@ -106,8 +106,8 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-silver p-8 rounded-xl">
             <HomeIcon className="w-8 h-8 text-gold mb-4" />
-            <h3 className="text-xl font-bold mb-2">Find Your Dream Home</h3>
-            <p className="text-navy/70">Explore our extensive property listings.</p>
+            <h3 className="text-xl font-bold mb-2">Home Search</h3>
+            <p className="text-navy/70">Tour homes to become well informed with your local market.</p>
           </div>
           <div className="bg-silver p-8 rounded-xl">
             <TrendingUp className="w-8 h-8 text-gold mb-4" />
