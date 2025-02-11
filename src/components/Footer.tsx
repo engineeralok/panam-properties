@@ -52,7 +52,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gold/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-silver">© 2024 Panam Properties. All Rights Reserved</p>
+    /*      <p className="text-silver">© 2024 Panam Properties. All Rights Reserved</p> */
           <div className="flex gap-4">
             <a href="#" className="text-silver hover:text-gold">Terms & Conditions</a>
             <a href="#" className="text-silver hover:text-gold">Privacy Policy</a>
