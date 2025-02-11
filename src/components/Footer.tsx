@@ -44,9 +44,9 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Contact Info</h4>
             <ul className="space-y-2 text-silver">
-              <li>123 Real Estate Ave</li>
-              <li>Property City, PC 12345</li>
-              <li>+1 (555) 123-4567</li>
+              <li>192 Eleanor Ave</li>
+              <li>Los Altos, CA 94022</li>
+              <li>650-314-3237</li>
               <li>info@panamproperties.com</li>
             </ul>
           </div>
