@@ -127,11 +127,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Properties */}
+      {/* Recent Activity */}
       <section className="container mx-auto px-4 py-20">
         <div className="flex flex-col sm:flex-row justify-between items-center mb-12">
-          <h2 className="text-3xl font-bold mb-4 sm:mb-0">Featured Properties</h2>
-          <button className="text-gold hover:text-gold/90">View All Properties</button>
+          <h2 className="text-3xl font-bold mb-4 sm:mb-0">Recent Activity</h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {properties.map(property => (
