@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { buttonVariants } from '../theme/components';
+import { storageUrl } from '../config';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,7 +35,7 @@ export default function Navbar() {
       <nav className="relative">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <img src="https://raw.githubusercontent.com/engineeralok/panam-properties/refs/heads/main/src/assets/panam-properties-logo.png?token=GHSAT0AAAAAAC5WLWGLDP27OZBJPNJHSTU2Z5WTLLA" alt="Panam Properties Logo" className="w-40 h-auto" />
+            <img src={`${storageUrl}/src/assets/panam-properties-logo.png`} alt="Panam Properties Logo" className="w-40 h-auto" />
           </Link>
 
           {/* Mobile menu button */}

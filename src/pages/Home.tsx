@@ -1,4 +1,3 @@
-
 import { Building2, Home as HomeIcon, TrendingUp, Brain, Star } from 'lucide-react';
 import Stats from '../components/Stats';
 

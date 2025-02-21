@@ -1,0 +1,1 @@
+export const storageUrl = 'https://raw.githubusercontent.com/engineeralok/panam-properties/refs/heads/main'; 
