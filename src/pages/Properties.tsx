@@ -1,5 +1,3 @@
-
-import PropertySearch from '../components/PropertySearch';
 import PropertyCard, { Property } from '../components/PropertyCard';
 
 const properties: Property[] = [
@@ -48,11 +46,10 @@ export default function Properties() {
         <div className="max-w-2xl mx-auto text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">Find Your Dream Property</h1>
           <p className="text-navy/70">
-            Welcome to Panam-Properties, where your dream property awaits in every corner of our beautiful world. 
+            Welcome to Panam-Properties, where your dream property awaits in every corner of our beautiful world.
             Explore our curated selection of properties, each offering a unique story and a chance to redefine your life.
           </p>
         </div>
-        <PropertySearch />
       </section>
 
       <section className="container mx-auto px-4">
@@ -68,7 +65,7 @@ export default function Properties() {
         <div className="bg-silver rounded-xl p-8 text-center shadow-lg border border-silver/20">
           <h2 className="text-2xl font-bold mb-4 text-navy">Let's Make It Happen</h2>
           <p className="text-navy/70 mb-6">
-            Ready to take the first step toward your dream property? Fill out the form below, 
+            Ready to take the first step toward your dream property? Fill out the form below,
             and our real estate wizards will work their magic to find your perfect match.
           </p>
           <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">

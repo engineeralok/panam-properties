@@ -1,4 +1,3 @@
-
 import { ArrowUpRight } from 'lucide-react';
 
 interface ServiceCardProps {
@@ -24,10 +23,6 @@ export default function ServiceCard({ title, description, icon, features }: Serv
           ))}
         </ul>
       )}
-      <button className="text-gold hover:text-gold/90 flex items-center gap-2">
-        Learn More
-        <ArrowUpRight className="w-4 h-4" />
-      </button>
     </div>
   );
 }

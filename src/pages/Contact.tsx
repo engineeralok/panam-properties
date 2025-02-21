@@ -1,4 +1,3 @@
-
 import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook } from 'lucide-react';
 
 export default function Contact() {
@@ -15,21 +14,21 @@ export default function Contact() {
       {/* Contact Methods */}
       <section className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="bg-gray-900 p-6 rounded-xl">
+          <div className="bg-silver p-6 rounded-xl">
             <Mail className="w-6 h-6 text-purple-600 mb-2" />
             <p className="text-gray-400">info@Panam-Properties.com</p>
           </div>
-          <div className="bg-gray-900 p-6 rounded-xl">
+          <div className="bg-silver p-6 rounded-xl">
             <Phone className="w-6 h-6 text-purple-600 mb-2" />
             <p className="text-gray-400">+1 (555) 123-4567</p>
           </div>
-          <div className="bg-gray-900 p-6 rounded-xl">
+          <div className="bg-silver p-6 rounded-xl">
             <MapPin className="w-6 h-6 text-purple-600 mb-2" />
             <p className="text-gray-400">Main Headquarters</p>
           </div>
-          <div className="bg-gray-900 p-6 rounded-xl">
+          <div className="bg-silver p-6 rounded-xl">
             <div className="flex gap-4 mb-2">
-              <Instagram className="w-6 h-6 text-purple-600" />
+              <Instagram className="w-6 h-6 text-silver-600" />
               <Linkedin className="w-6 h-6 text-purple-600" />
               <Facebook className="w-6 h-6 text-purple-600" />
             </div>
@@ -47,26 +46,26 @@ export default function Contact() {
               <input
                 type="text"
                 placeholder="First Name"
-                className="bg-gray-900 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600"
+                className="bg-silver px-4 py-2 rounded-lg border border-gold/20 focus:outline-none focus:ring-2 focus:ring-purple-600"
               />
               <input
                 type="text"
                 placeholder="Last Name"
-                className="bg-gray-900 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600"
+                className="bg-silver px-4 py-2 rounded-lg border border-gold/20 focus:outline-none focus:ring-2 focus:ring-purple-600"
               />
               <input
                 type="email"
                 placeholder="Email"
-                className="bg-gray-900 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600"
+                className="bg-silver px-4 py-2 rounded-lg border border-gold/20 focus:outline-none focus:ring-2 focus:ring-purple-600"
               />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <input
                 type="tel"
                 placeholder="Phone"
-                className="bg-gray-900 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600"
+                className="bg-silver px-4 py-2 rounded-lg border border-gold/20 focus:outline-none focus:ring-2 focus:ring-purple-600"
               />
-              <select className="bg-gray-900 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600">
+              <select className="bg-silver px-4 py-2 rounded-lg border border-gold/20 focus:outline-none focus:ring-2 focus:ring-purple-600">
                 <option value="">Inquiry Type</option>
                 <option value="buy">Buy Property</option>
                 <option value="sell">Sell Property</option>
@@ -74,7 +73,7 @@ export default function Contact() {
                 <option value="other">Other</option>
               </select>
             </div>
-            <select className="w-full bg-gray-900 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600">
+            <select className="w-full bg-silver px-4 py-2 rounded-lg border border-gold/20 focus:outline-none focus:ring-2 focus:ring-purple-600">
               <option value="">How Did You Hear About Us?</option>
               <option value="social">Social Media</option>
               <option value="search">Search Engine</option>
@@ -84,7 +83,7 @@ export default function Contact() {
             <textarea
               placeholder="Message"
               rows={6}
-              className="w-full bg-gray-900 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600"
+              className="w-full bg-silver px-4 py-2 rounded-lg border border-gold/20 focus:outline-none focus:ring-2 focus:ring-purple-600"
             ></textarea>
             <div className="flex items-center gap-2">
               <input type="checkbox" id="terms" className="rounded text-purple-600" />
@@ -94,7 +93,7 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700"
+              className="w-full bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90"
             >
               Send Your Message
             </button>
@@ -107,7 +106,7 @@ export default function Contact() {
         <h2 className="text-2xl font-bold mb-8">Discover Our Office Locations</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {/* Main Headquarters */}
-          <div className="bg-gray-900 p-8 rounded-xl">
+          <div className="bg-silver p-8 rounded-xl">
             <h3 className="text-xl font-bold mb-4">Main Headquarters</h3>
             <p className="text-lg mb-2">123 Panam-Properties Plaza, City Center, Metropolis</p>
             <p className="text-gray-400 mb-6">
@@ -134,7 +133,7 @@ export default function Contact() {
           </div>
 
           {/* Regional Office */}
-          <div className="bg-gray-900 p-8 rounded-xl">
+          <div className="bg-silver p-8 rounded-xl">
             <h3 className="text-xl font-bold mb-4">Regional Office</h3>
             <p className="text-lg mb-2">456 Urban Avenue, Downtown District, Metropolis</p>
             <p className="text-gray-400 mb-6">
@@ -192,12 +191,12 @@ export default function Contact() {
 
       {/* CTA Section */}
       <section className="container mx-auto px-4">
-        <div className="bg-gray-900 rounded-xl p-8 text-center">
+        <div className="bg-silver rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold mb-4">Start Your Real Estate Journey Today</h2>
-          <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
+          <p className="text-navy/70 mb-6 max-w-2xl mx-auto">
             Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Panam-Properties is here to assist you every step of the way.
           </p>
-          <button className="bg-purple-600 px-6 py-3 rounded-lg hover:bg-purple-700">
+          <button className="bg-gold px-6 py-3 rounded-lg hover:bg-gold/90">
             Explore Properties
           </button>
         </div>

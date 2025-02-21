@@ -166,7 +166,6 @@ export default function Home() {
       <section className="container mx-auto px-4 py-20">
         <div className="flex flex-col sm:flex-row justify-between items-center mb-12">
           <h2 className="text-3xl font-bold mb-4 sm:mb-0">What Our Clients Say</h2>
-          <button className="text-gold hover:text-gold/90">View All Testimonials</button>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map(testimonial => (
