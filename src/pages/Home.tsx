@@ -1,5 +1,6 @@
 import { Building2, Home as HomeIcon, TrendingUp, Brain, Star } from 'lucide-react';
 import Stats from '../components/Stats';
+import { storageUrl } from '../config';
 
 const stats = [
   { value: '200+', label: 'Happy Customers' },
@@ -11,7 +12,7 @@ const properties = [
   {
     id: 1,
     title: 'Seaside Serenity Villa',
-    image: './src/assets/property_1.jpg',
+    image: `${storageUrl}/src/assets/property_1.jpg`,
     price: 580000,
     bedrooms: 4,
     bathrooms: 3,
@@ -21,22 +22,22 @@ const properties = [
   {
     id: 2,
     title: 'Metropolitan Haven',
-    image: 'https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=800&q=80',
+    image: `${storageUrl}/src/assets/property_2.jpg`,
     price: 550000,
-    bedrooms: 3,
-    bathrooms: 2,
-    area: 350,
-    description: 'Luxurious city-center apartment with panoramic views.'
+    bedrooms: 4,
+    bathrooms: 3,
+    area: 2000,
+    description: 'Successfully secured a smaller office space for a commercial tenant seeking to downsize while maintaining their desired location. Following a 12-month search and needs assessment, a new lease was negotiated, providing optimal flexibility for potential future changes.'
   },
   {
     id: 3,
     title: 'Rustic Refined Cottage',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80',
-    price: 350000,
-    bedrooms: 2,
-    bathrooms: 2,
-    area: 250,
-    description: 'Charming 2-bedroom cottage with modern amenities.'
+    image: `${storageUrl}/src/assets/property_3.jpg`,
+    price: 850000,
+    bedrooms: 6,
+    bathrooms: 5,
+    area: 9000,
+    description: 'Panam Properties provides property management services for corporate tenants, addressing requirements that extend beyond standard real estate transactions. Our services include accommodating specific needs and requests to ensure their comfort and satisfaction during their stays. We strive to deliver comprehensive support tailored to the unique demands of corporate clientele.'
   },
 ];
 
@@ -45,7 +46,7 @@ const testimonials = [
     id: 1,
     name: 'Wade Warren',
     role: 'CEO, Gainline',
-    content: 'Our experience with Panam-Properties was outstanding. Their team\'s dedication and professionalism made finding our dream home a breeze.',
+    content: 'Working with this team made the home-buying process so much easier! They provided us with an organized system for tracking properties, setting up showings, and taking actionable steps to secure the deal. Their structured approach helped us stay focused, compare options clearly, and make confident decisions. We felt supported every step of the way, and their expertise truly simplified what could have been an overwhelming experience',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=100&h=100&q=80'
   },
@@ -53,7 +54,7 @@ const testimonials = [
     id: 2,
     name: 'Emilie Thomson',
     role: 'Tech Director',
-    content: 'Panam-Properties provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn\'t be happier with the result.',
+    content: 'This team exceeded our expectations! They were incredibly transparent about fees and worked with us to find a favorable arrangement without ever compromising on service quality. Their dedication to our needs was evident in every interaction—they went above and beyond to ensure we felt informed and empowered throughout the process. It’s rare to find such honesty and commitment in this industry, and we’re so glad we chose them!',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80'
   },
@@ -61,7 +62,7 @@ const testimonials = [
     id: 3,
     name: 'John Nora',
     role: 'CFO, Nexbase',
-    content: 'The advisors have guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your help!',
+    content: 'What truly sets this team apart is their willingness to go the extra mile—even putting up their own capital to address short-term funding issues so we could secure our dream home. They also coordinated everything to get the house move-in ready, including managing significant rehab work. Their resourcefulness and dedication turned what seemed like an impossible situation into a seamless transition for our family. We couldn’t be happier with the results!',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&h=100&q=80'
   },
