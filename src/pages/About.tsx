@@ -11,22 +11,22 @@ const stats = [
 const values = [
   {
     title: 'Trust',
-    description: 'Trust is the cornerstone of every successful real estate transaction.',
+    description: 'Trust is built on expertise, dedication, and always putting the client\'s interests first.',
     icon: '🤝',
   },
   {
     title: 'Excellence',
-    description: 'We set the bar high for excellence, from the expertise we bring to the services we provide.',
+    description: 'Delivering value through expertise, creativity, and a relentless focus on achieving your goals.',
     icon: '⭐',
   },
   {
     title: 'Client-Centric',
-    description: 'Your dreams and needs are at the center of our services. We listen, understand.',
+    description: 'Your goals are our priority; we\'re dedicated to making your real estate vision a reality.',
     icon: '👥',
   },
   {
     title: 'Our Commitment',
-    description: 'We are dedicated to providing you with the highest level of service, professionalism, and support.',
+    description: 'Our commitment is to go above and beyond to deliver tailored solutions and exceptional value for your real estate journey.',
     icon: '✨',
   },
 ];
@@ -88,16 +88,16 @@ export default function About() {
       <section className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-8">
-            <h1 className="text-4xl md:text-5xl font-bold">Our Journey</h1>
+            <h1 className="text-4xl md:text-5xl font-bold">Us</h1>
             <p className="text-navy/70">
-              We've been helping people find their dream homes and make smart property investments that transcend the ordinary. Over the years, we've grown from humble beginnings into a full-service real estate powerhouse.
+              We are dedicated real estate professionals committed to securing optimal outcomes for our clients. We leverage our in-depth market knowledge and analytical skills to identify opportunities and navigate complexities in every transaction. Our passion lies in utilizing real estate as a strategic tool to help you achieve your financial and personal goals. We excel at creative problem-solving, addressing challenges from budget considerations to property enhancements, and are committed to maximizing value and passing along cost savings to our clients.
             </p>
             <Stats stats={stats} />
           </div>
           <div className="relative">
-            <img 
+            <img
               src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80"
-              alt="Our journey"
+              alt="about us"
               className="rounded-2xl"
             />
           </div>
