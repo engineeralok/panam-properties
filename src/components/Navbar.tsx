@@ -16,19 +16,17 @@ export default function Navbar() {
   };
 
   const getLinkClasses = (path: string) => {
-    return `transition-colors duration-200 ${
-      isActivePath(path)
-        ? 'text-gold font-medium'
-        : 'hover:text-gold text-navy'
-    }`;
+    return `transition-colors duration-200 ${isActivePath(path)
+      ? 'text-gold font-medium'
+      : 'hover:text-gold text-navy'
+      }`;
   };
 
   const getMobileLinkClasses = (path: string) => {
-    return `py-2 transition-colors duration-200 ${
-      isActivePath(path)
-        ? 'text-gold font-medium'
-        : 'hover:text-gold text-navy'
-    }`;
+    return `py-2 transition-colors duration-200 ${isActivePath(path)
+      ? 'text-gold font-medium'
+      : 'hover:text-gold text-navy'
+      }`;
   };
 
   return (
@@ -36,11 +34,11 @@ export default function Navbar() {
       <nav className="relative">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <img src="'../assets/panam-properties-logo.png'?raw=true" alt="Panam Properties Logo" className="w-40 h-auto" />
+            <img src="https://raw.githubusercontent.com/engineeralok/panam-properties/refs/heads/main/src/assets/panam-properties-logo.png?token=GHSAT0AAAAAAC5WLWGLDP27OZBJPNJHSTU2Z5WTLLA" alt="Panam Properties Logo" className="w-40 h-auto" />
           </Link>
-          
+
           {/* Mobile menu button */}
-          <button 
+          <button
             onClick={toggleMenu}
             className="md:hidden p-2"
             aria-label="Toggle menu"
@@ -66,8 +64,8 @@ export default function Navbar() {
             <Link to="/services" className={getLinkClasses('/services')}>
               Services
             </Link>
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className={isActivePath('/contact') ? buttonVariants.primary + ' !bg-gold/80' : buttonVariants.primary}
             >
               Contact Us
@@ -79,39 +77,38 @@ export default function Navbar() {
         {isMenuOpen && (
           <div className="absolute top-full left-0 right-0 bg-white shadow-lg rounded-lg mt-2 py-4 md:hidden">
             <div className="flex flex-col space-y-4 px-4">
-              <Link 
-                to="/" 
+              <Link
+                to="/"
                 className={getMobileLinkClasses('/')}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
-              <Link 
-                to="/about" 
+              <Link
+                to="/about"
                 className={getMobileLinkClasses('/about')}
                 onClick={() => setIsMenuOpen(false)}
               >
                 About Us
               </Link>
-              <Link 
-                to="/properties" 
+              <Link
+                to="/properties"
                 className={getMobileLinkClasses('/properties')}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Properties
               </Link>
-              <Link 
-                to="/services" 
+              <Link
+                to="/services"
                 className={getMobileLinkClasses('/services')}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
               </Link>
-              <Link 
-                to="/contact" 
-                className={`bg-gold text-white px-4 py-2 rounded-lg hover:bg-gold/90 text-center ${
-                  isActivePath('/contact') ? 'bg-gold/80' : ''
-                }`}
+              <Link
+                to="/contact"
+                className={`bg-gold text-white px-4 py-2 rounded-lg hover:bg-gold/90 text-center ${isActivePath('/contact') ? 'bg-gold/80' : ''
+                  }`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact Us

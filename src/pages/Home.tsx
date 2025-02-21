@@ -12,12 +12,12 @@ const properties = [
   {
     id: 1,
     title: 'Seaside Serenity Villa',
-    image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80',
+    image: './src/assets/property_1.jpg',
     price: 580000,
     bedrooms: 4,
     bathrooms: 3,
-    area: 450,
-    description: 'A stunning 4-bedroom seaside villa with a peaceful garden and private pool.'
+    area: 2211,
+    description: 'We recently represented a buyer in the acquisition of a home, successfully resolving challenges related to a solar lease and a distressed seller. We also negotiated a rent-back agreement to benefit our client.'
   },
   {
     id: 2,
@@ -76,7 +76,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-8">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-             Your Trusted Partner in Real Estate, Today and Tomorrow
+              Your Trusted Partner in Real Estate, Today and Tomorrow
             </h1>
             <p className="text-navy/70">
               At Panam Properties, we're more than just real estate agents – we're investors ourselves who understand your journey. As your trusted partner, we put your interests first and aim to build lasting relationships that extend beyond a single transaction. Whether you're buying, selling, or investing, count on us to be your long-term resource for all things real estate.
@@ -92,7 +92,7 @@ export default function Home() {
             <Stats stats={stats} />
           </div>
           <div className="relative">
-            <img 
+            <img
               src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
               alt="Modern building"
               className="rounded-2xl object-cover w-full"
@@ -135,8 +135,8 @@ export default function Home() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {properties.map(property => (
             <div key={property.id} className="bg-silver rounded-xl overflow-hidden">
-              <img 
-                src={property.image} 
+              <img
+                src={property.image}
                 alt={property.title}
                 className="w-full h-48 object-cover"
               />
@@ -147,14 +147,14 @@ export default function Home() {
                   <div className="flex flex-wrap gap-4">
                     <span className="text-navy/70">{property.bedrooms} Bedroom</span>
                     <span className="text-navy/70">{property.bathrooms} Bathroom</span>
-                    <span className="text-navy/70">{property.area} m²</span>
+                    <span className="text-navy/70">{property.area} Sqft</span>
                   </div>
                 </div>
                 <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
                   <span className="text-2xl font-bold text-navy">${property.price.toLocaleString()}</span>
-                  <button className="bg-gold px-4 py-2 rounded-lg hover:bg-gold/90 w-full sm:w-auto text-white">
+                  {/* <button className="bg-gold px-4 py-2 rounded-lg hover:bg-gold/90 w-full sm:w-auto text-white">
                     View Property Details
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
@@ -178,8 +178,8 @@ export default function Home() {
               </div>
               <p className="text-navy/70 mb-6">{testimonial.content}</p>
               <div className="flex items-center gap-4">
-                <img 
-                  src={testimonial.avatar} 
+                <img
+                  src={testimonial.avatar}
                   alt={testimonial.name}
                   className="w-12 h-12 rounded-full"
                 />
@@ -198,7 +198,7 @@ export default function Home() {
         <div className="bg-silver rounded-xl p-8 text-center shadow-lg border border-silver/20">
           <h2 className="text-2xl font-bold mb-4 text-navy">Want to learn more?</h2>
           <p className="text-navy/70 mb-6">
-Whether you're ready to explore properties, discuss your real estate goals, or need guidance on tax matters, we're here to help. Reach out anytime for a conversation          </p>
+            Whether you're ready to explore properties, discuss your real estate goals, or need guidance on tax matters, we're here to help. Reach out anytime for a conversation          </p>
           <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
             Start Your Search
           </button>
