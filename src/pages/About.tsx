@@ -63,25 +63,36 @@ const steps = [
 
 const team = [
   {
-    name: 'Max Mitchell',
-    role: 'CEO, Founder',
+    name: 'Ashish Patel',
+    role: 'Broker, Agent',
     image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Sarah Johnson',
-    role: 'Head Sales Officer',
+    name: 'Pravin Patel',
+    role: 'Agent',
     image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'David Brown',
-    role: 'Head of Property Management',
+    name: 'Jayesh Shah',
+    role: 'Agent',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Michelle Turner',
-    role: 'Senior Consultant',
+    name: 'Taran Kaler',
+    role: 'Agent',
     image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80',
   },
+    {
+    name: 'Jay Patel',
+    role: 'CPA',
+    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    name: 'Sophia Williams',
+    role: 'Content Operations',
+    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80',
+  },
+
 ];
 
 export default function About() {
