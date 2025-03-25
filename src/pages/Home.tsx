@@ -109,22 +109,22 @@ The sheer scope of the real estate market, contributing a significant 15-18% to 
           <div className="bg-silver p-8 rounded-xl">
             <HomeIcon className="w-8 h-8 text-gold mb-4" />
             <h3 className="text-xl font-bold mb-2">Home Search</h3>
-            <p className="text-navy/70">Tour homes to become well informed with your local market.</p>
+            <p className="text-navy/70">Let's partner on your home search: you bring the online discoveries, and we will bring the local expertise, negotiation power, and behind-the-scenes knowledge to turn your online finds into your dream home</p>
           </div>
           <div className="bg-silver p-8 rounded-xl">
             <TrendingUp className="w-8 h-8 text-gold mb-4" />
             <h3 className="text-xl font-bold mb-2">Unlock Property Value</h3>
-            <p className="text-navy/70">Get the best value for your property.</p>
+            <p className="text-navy/70">Guide you through strategic staging and presentation, highlighting your home's unique features and creating a compelling narrative that resonates with buyers, ultimately driving up your property's perceived value</p>
           </div>
           <div className="bg-silver p-8 rounded-xl">
             <Building2 className="w-8 h-8 text-gold mb-4" />
             <h3 className="text-xl font-bold mb-2">Property Management</h3>
-            <p className="text-navy/70">Professional property management services.</p>
+            <p className="text-navy/70">We offer comprehensive property management solutions, including tenant relations, legal compliance, and strategic maintenance, to safeguard your investment and optimize its long-term value</p>
           </div>
           <div className="bg-silver p-8 rounded-xl">
             <Brain className="w-8 h-8 text-gold mb-4" />
             <h3 className="text-xl font-bold mb-2">Smart Investments</h3>
-            <p className="text-navy/70">Make informed investment decisions.</p>
+            <p className="text-navy/70">We will guide you in making smart investments by identifying high-potential properties, providing in-depth market analysis, and assessing long-term growth opportunities</p>
           </div>
         </div>
       </section>
