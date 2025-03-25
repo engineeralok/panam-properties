@@ -63,31 +63,37 @@ const steps = [
 
 const team = [
   {
+    id: 1, // Add an 'id'
     name: 'Ashish Patel',
     role: 'Broker, Agent',
     image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80',
   },
   {
+    id: 2, // Add an 'id'
     name: 'Pravin Patel',
     role: 'Agent',
     image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
   },
   {
+    id: 3, // Add an 'id'
     name: 'Jayesh Shah',
     role: 'Agent',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80',
   },
   {
+    id: 4, // Add an 'id'
     name: 'Taran Kaler',
     role: 'Agent',
     image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80',
   },
     {
+    id: 5, // Add an 'id'
     name: 'Jay Patel',
     role: 'CPA',
     image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80',
   },
   {
+    id: 6, // Add an 'id'
     name: 'Sophia Williams',
     role: 'Content Operations',
     image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80',
@@ -162,8 +168,8 @@ export default function About() {
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
 
         {/*  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8"> */}
-          {team.map((member, index) => (
-            <TeamMember key={index} {...member} />
+          {team.map((member) => (
+            <TeamMember key={member.id} {...member} />
           ))}
         </div>
       </section>
