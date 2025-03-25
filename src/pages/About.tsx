@@ -31,6 +31,8 @@ const values = [
   },
 ];
 
+
+{/*
 const steps = [
   {
     title: 'Discover & Possibilities',
@@ -57,6 +59,7 @@ const steps = [
     description: 'Our negotiation experts ensure you get the best possible terms.',
   },
 ];
+*/}
 
 const team = [
   {
