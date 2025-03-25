@@ -90,10 +90,10 @@ export default function About() {
           <div className="space-y-8">
             <h1 className="text-4xl md:text-5xl font-bold">Full-Service Real Estate Brokerage In California</h1>
            <div className="text-navy/70">
-  <p style={{ marginBottom: '1rem' }}>
-    With over two decades of real estate experience, Panam Properties has brokered countless deals across various property and real estate types in San Francisco and around California. From mobile homes to high-value developments, we’re committed to helping buyers and sellers find value and comfort in trusting the right team.
+  <p className="paragraph-spacing">
+    With more than 20 years in California real estate, Panam Properties has facilitated transactions across diverse property types. We facilitate transactions for a range of properties, including mobile homes and entitlement-required developments, focusing on delivering value to buyers and sellers.
   </p>
-  <p style={{ marginBottom: '1rem' }}>
+  <p className="paragraph-spacing">
     Unlike many firms, we stand apart because we are investors and brokers; we invest our own money in deals, ensuring we operate with the same level of scrutiny and care as our clients.
   </p>
   <p>
