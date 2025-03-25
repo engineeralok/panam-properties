@@ -160,11 +160,9 @@ export default function About() {
         <div className="bg-silver rounded-xl p-8 text-center shadow-lg border border-silver/20">
           <h2 className="text-2xl font-bold mb-4 text-navy">Join Our Journey</h2>
           <p className="text-navy/70 mb-6">
-            Ready to be part of our story? Whether you're looking to buy, sell, or invest in properties,
-            our team is here to guide you every step of the way.
-          </p>
+Have an idea you'd like to explore? Reach out! We can discuss it, offer some insights, and help you map out your next steps.          </p>
           <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
-            Get Started Today
+            Let's Discuss
           </button>
         </div>
       </section>
