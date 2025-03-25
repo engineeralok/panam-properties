@@ -79,9 +79,9 @@ export default function Home() {
               The Right Real Estate Team for Maximum Value
             </h1>
             <p className="text-navy/70">
-              Buying a home isn’t a conscious decision that sets the tone for the rest of your life. Whether you’re looking for a single-family home, luxury condo, or a unique property in California, we’re the team to make the dream come true.
-As top-tier real estate agents and brokers with over 20 years of experience, Panam Properties specializes in buying, selling, and investing across homes, land development, and distressed properties. We’re a strategic, results-driven team committed to getting our clients the best deal.
+It's a digital-first world, and let's be honest: buyers are often finding homes online faster than agents. With sites like Zillow attracting hundreds of millions of visitors monthly, today's buyers and sellers are incredibly well-informed. This reality demands a new approach. As your agent, I offer more than just listings; I enhance your search by providing expert filtering, navigating complex contracts and negotiations, and identifying potential red flags that online photos can't reveal. Ultimately, it's a team effort, built on personalized service, that fosters a long-term, trusted advisory relationship.
 
+The sheer scope of the real estate market, contributing a significant 15-18% to our GDP, highlights the importance of making informed decisions. Buying a home isn't just a transaction; it's a life-defining moment. Whether you're seeking a single-family home, a luxury condo, or a unique California property, Panam Properties is your dedicated team. With over 20 years of experience as top-tier agents and brokers, we specialize in buying, selling, and investing across diverse property types, including land development and distressed properties. Our strategic, results-driven approach ensures you get the best possible deal.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
