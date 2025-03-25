@@ -104,7 +104,14 @@ export default function Services() {
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold mb-4">Elevate Your Real Estate Experience</h1>
           <p className="text-gray-400">
-            Welcome to Panam-Properties, where your real estate aspirations meet expert guidance. Explore our comprehensive range of services, each designed to cater to your unique needs and desires.
+
+In today's real estate landscape, the journey begins online. That's why we prioritize crafting compelling digital appeal for every listing – because first impressions are formed on screens, long before a buyer sets foot inside. Our team blends stunning content with deep market expertise to showcase your property's unique story and unlock its full investment potential.
+
+But attracting attention is only part of the equation. Setting the right price isn't guesswork; it's a data-driven strategy. We meticulously analyze market trends and comparable sales to craft a pricing strategy that tells your property's value story, ensuring you capture top dollar from the moment it hits the market.
+
+And to truly maximize your home's value, presentation is key. We go beyond simply listing your property. Our team analyzes every aspect of its condition, pinpointing opportunities for strategic improvements based on current market expectations. This allows us to craft a tailored preparation strategy, ensuring your home resonates with buyers and achieves the highest possible return.
+
+            
           </p>
         </div>
       </section>
