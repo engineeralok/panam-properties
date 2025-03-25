@@ -164,7 +164,7 @@ export default function About() {
 
       {/* Team Section */}
       <section className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-12">Meet the Panam-Properties Team</h2>
+        <h2 className="text-3xl font-bold mb-12">Meet the Panam Properties Team</h2>
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
 
         {/*  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8"> */}
