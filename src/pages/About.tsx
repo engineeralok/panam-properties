@@ -126,19 +126,21 @@ export default function About() {
         </div>
       </section>
 
-      {/* Experience Steps */}
-      <section className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-12">Navigating the Panam-Properties Experience</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {steps.map((step, index) => (
-            <div key={index} className="bg-silver p-8 rounded-xl shadow-lg border border-silver/20">
-              <div className="text-gold font-bold mb-4">Step {index + 1}</div>
-              <h3 className="text-xl font-bold mb-2 text-navy">{step.title}</h3>
-              <p className="text-navy/70">{step.description}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+{/* Experience Steps */}
+{/* 3-25-25 EDITED THIS OUT TO REMOVE EXTRA LANGUAGE
+<section className="container mx-auto px-4">
+  <h2 className="text-3xl font-bold mb-12">Navigating the Panam-Properties Experience</h2>
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {steps.map((step, index) => (
+      <div key={index} className="bg-silver p-8 rounded-xl shadow-lg border border-silver/20">
+        <div className="text-gold font-bold mb-4">Step {index + 1}</div>
+        <h3 className="text-xl font-bold mb-2 text-navy">{step.title}</h3>
+        <p className="text-navy/70">{step.description}</p>
+      </div>
+    ))}
+  </div>
+</section>
+*/}
 
       {/* Team Section */}
       <section className="container mx-auto px-4">
