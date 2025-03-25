@@ -11,22 +11,22 @@ const stats = [
 const values = [
   {
     title: 'Trust',
-    description: 'Trust is built on expertise, dedication, and always putting the client\'s interests first.',
+    description: 'We're all about being straight with you. We know our stuff, we're here for you, and we always put your needs first.',
     icon: '🤝',
   },
   {
     title: 'Excellence',
-    description: 'Delivering value through expertise, creativity, and a relentless focus on achieving your goals.',
+    description: 'We go the extra mile to get you the best results. We use our know-how and get creative to make your goals happen.',
     icon: '⭐',
   },
   {
     title: 'Client-Centric',
-    description: 'Your goals are our priority; we\'re dedicated to making your real estate vision a reality.',
+    description: 'Your goals are what matter most to us. We're here to make your real estate dreams a reality.',
     icon: '👥',
   },
   {
     title: 'Our Commitment',
-    description: 'Our commitment is to go above and beyond to deliver tailored solutions and exceptional value for your real estate journey.',
+    description: 'We're committed to giving you personalized solutions and making sure you get the best bang for your buck on your real estate journey.',
     icon: '✨',
   },
 ];
