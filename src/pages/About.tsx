@@ -88,9 +88,11 @@ export default function About() {
       <section className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-8">
-            <h1 className="text-4xl md:text-5xl font-bold">Us</h1>
+            <h1 className="text-4xl md:text-5xl font-bold">Full-Service Real Estate Brokerage In California</h1>
             <p className="text-navy/70">
-              We are dedicated real estate professionals committed to securing optimal outcomes for our clients. We leverage our in-depth market knowledge and analytical skills to identify opportunities and navigate complexities in every transaction. Our passion lies in utilizing real estate as a strategic tool to help you achieve your financial and personal goals. We excel at creative problem-solving, addressing challenges from budget considerations to property enhancements, and are committed to maximizing value and passing along cost savings to our clients.
+With over two decades of real estate experience, Panam Properties has brokered countless deals across various property and real estate types in San Francisco and around California. From mobile homes to high-value developments, we’re committed to helping buyers and sellers find value and comfort in trusting the right team. 
+Unlike many firms, we stand apart because we are investors and brokers; we invest our own money in deals, ensuring we operate with the same level of scrutiny and care as our clients.
+Over the years, we’ve used our skills and experience to identify hidden opportunities in the real estate market and help our clients find what they need through exemplary brokerage services. 
             </p>
             <Stats stats={stats} />
           </div>
