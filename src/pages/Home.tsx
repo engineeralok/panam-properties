@@ -150,7 +150,7 @@ The sheer scope of the real estate market, contributing a significant 15-18% to 
                   </div>
                 </div>
                 <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-                  <span className="text-2xl font-bold text-navy">${property.price.toLocaleString()}</span>
+                  {/* <span className="text-2xl font-bold text-navy">${property.price.toLocaleString()}</span> */}
                   {/* <button className="bg-gold px-4 py-2 rounded-lg hover:bg-gold/90 w-full sm:w-auto text-white">
                     View Property Details
                   </button> */}
