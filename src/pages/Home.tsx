@@ -4,7 +4,7 @@ import { storageUrl } from '../config';
 
 const stats = [
   { value: '200+', label: 'Happy Customers' },
-  { value: '1,000+', label: 'Properties for Clients' },
+  { value: '500+', label: 'Properties for Clients' },
   { value: '20+', label: 'Years of Experience' },
 ];
 
