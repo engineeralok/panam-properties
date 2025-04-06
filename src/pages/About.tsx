@@ -176,7 +176,7 @@ export default function About() {
       {/* Add CTA Section */}
       <section className="container mx-auto px-4">
         <div className="bg-silver rounded-xl p-8 text-center shadow-lg border border-silver/20">
-          <h2 className="text-2xl font-bold mb-4 text-navy">Call Anytime</h2>
+          <h2 className="text-2xl font-bold mb-4 text-navy">Call or Text Anytime</h2>
           <p className="text-navy/70 mb-6">
             Have an idea you'd like to explore? Reach out! We can discuss it, offer some insights, and help you map out your next steps.
           </p>
