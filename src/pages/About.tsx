@@ -66,7 +66,7 @@ const team = [
     id: 1,
     name: 'Ashish Patel',
     role: 'Broker, Agent',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80',
+    image: 'https://fourgatescapital.com/assets/Ashish.jpg?auto=format&fit=crop&w=800&q=80',
   },
   {
     id: 2,
