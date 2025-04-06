@@ -11,16 +11,16 @@ const stats = [
 const properties = [
   {
     id: 1,
-    title: 'Seaside Serenity Villa',
+    title: 'Get me the cheapest house for my growing family!',
     image: `${storageUrl}/src/assets/property_1.jpg`,
     bedrooms: 4,
     bathrooms: 3,
     area: 2211,
-    description: 'We recently represented a buyer in the acquisition of a home, successfully resolving challenges related to a solar lease and a distressed seller. We also negotiated a rent-back agreement to benefit our client.'
+    description: 'We recently represented a buyer in the acquisition of a home, successfully resolving challenges related to a solar lease and a distressed seller. We also negotiated a rent-back agreement to benefit our client. Got them a good sized home for a good price.'
   },
   {
     id: 2,
-    title: 'Metropolitan Haven',
+    title: 'Downsize Me',
     image: `${storageUrl}/src/assets/property_2.jpg`,
     bedrooms: 4,
     bathrooms: 3,
@@ -29,7 +29,7 @@ const properties = [
   },
   {
     id: 3,
-    title: 'Rustic Refined Cottage',
+    title: 'CA Corporate Home for Multi-National',
     image: `${storageUrl}/src/assets/property_3.jpg`,
     bedrooms: 6,
     bathrooms: 5,
