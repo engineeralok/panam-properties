@@ -63,10 +63,9 @@ export default function Properties() {
 
       <section className="container mx-auto px-4">
         <div className="bg-silver rounded-xl p-8 text-center shadow-lg border border-silver/20">
-          <h2 className="text-2xl font-bold mb-4 text-navy">Let's Make It Happen</h2>
+          <h2 className="text-2xl font-bold mb-4 text-navy">Let's Dive In</h2>
           <p className="text-navy/70 mb-6">
-            Ready to take the first step toward your dream property? Fill out the form below,
-            and our real estate wizards will work their magic to find your perfect match.
+            Have an idea you'd like to explore? Reach out! We can discuss it, offer some insights, and help you map out your next steps.
           </p>
           <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
             Contact an Agent
