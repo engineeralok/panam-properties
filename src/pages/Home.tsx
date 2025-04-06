@@ -41,25 +41,25 @@ const properties = [
 const testimonials = [
   {
     id: 1,
-    name: 'Wade Warren',
-    role: 'CEO, Gainline',
-    content: 'Working with this team made the home-buying process so much easier! They provided us with an organized system for tracking properties, setting up showings, and taking actionable steps to secure the deal. Their structured approach helped us stay focused, compare options clearly, and make confident decisions. We felt supported every step of the way, and their expertise truly simplified what could have been an overwhelming experience',
+    name: '',
+    role: 'Jim Bianco',
+    content: 'I'm not a first time buyer so I was able to do most of the initial filtering on my own. I enjoyed how we both looked at numbers and had a rational approach to this otherwise emotional process. We were able to frame our offer with the knowledge of the market that they helped uncover which was convincing to my seller.  Their structured approach helped us stay focused, compare options clearly, and make confident decisions. ',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=100&h=100&q=80'
   },
   {
     id: 2,
     name: 'Emilie Thomson',
-    role: 'Tech Director',
-    content: 'This team exceeded our expectations! They were incredibly transparent about fees and worked with us to find a favorable arrangement without ever compromising on service quality. Their dedication to our needs was evident in every interaction—they went above and beyond to ensure we felt informed and empowered throughout the process. It’s rare to find such honesty and commitment in this industry, and we’re so glad we chose them!',
+    role: 'Office Manager',
+    content: 'It started as a no pressure search. We didn't quite know the space we needed, but over time we started to refine our search, made offers and ultimately got our new office. Appreciated the questions they introduced as far as commercial code compliance and terms for us to negotiate off of to get the right space for us. Would recommend to others.',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80'
   },
   {
     id: 3,
-    name: 'John Nora',
-    role: 'CFO, Nexbase',
-    content: 'What truly sets this team apart is their willingness to go the extra mile—even putting up their own capital to address short-term funding issues so we could secure our dream home. They also coordinated everything to get the house move-in ready, including managing significant rehab work. Their resourcefulness and dedication turned what seemed like an impossible situation into a seamless transition for our family. We couldn’t be happier with the results!',
+    name: 'Aarav Verma',
+    role: 'Buyer',
+    content: 'What truly sets this team apart is their willingness to go the extra mile—even putting up their own capital to address short-term funding issues so we could secure our home. They also coordinated everything to get the house move-in ready, including managing significant rehab work. Their resourcefulness and dedication turned what seemed like an impossible situation into a seamless transition for our family. We couldn’t be happier with the results!',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&h=100&q=80'
   },
