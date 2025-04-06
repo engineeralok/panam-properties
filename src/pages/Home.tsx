@@ -43,7 +43,7 @@ const testimonials = [
     id: 1,
     name: 'Jim Bianco',
     role: 'Buyer',
-    content: 'Im not a first time buyer so I was able to do most of the initial filtering on my own. I enjoyed how we both looked at numbers and had a rational approach to this otherwise emotional process. We were able to frame our offer with the knowledge of the market that they helped uncover which was convincing to my seller.  Their structured approach helped us stay focused, compare options clearly, and make confident decisions.',
+    content: 'I\'m not a first time buyer so I was able to do most of the initial filtering on my own. I enjoyed how we both looked at numbers and had a rational approach to this otherwise emotional process. We were able to frame our offer with the knowledge of the market that they helped uncover which was convincing to my seller.  Their structured approach helped us stay focused, compare options clearly, and make confident decisions.',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=100&h=100&q=80'
   },
@@ -51,7 +51,7 @@ const testimonials = [
     id: 2,
     name: 'Emilie Thomson',
     role: 'Office Manager',
-    content: 'It started as a no pressure search. We didn't quite know the space we needed, but over time we started to refine our search, made offers and ultimately got our new office. Appreciated the questions they introduced as far as commercial code compliance and terms for us to negotiate off of to get the right space for us. Would recommend to others.',
+    content: 'It started as a no pressure search. We didn\'t quite know the space we needed, but over time we started to refine our search, made offers and ultimately got our new office. Appreciated the questions they introduced as far as commercial code compliance and terms for us to negotiate off of to get the right space for us. Would recommend to others.',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80'
   },
