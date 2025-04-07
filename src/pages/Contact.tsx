@@ -27,12 +27,14 @@ export default function Contact() {
             <p className="text-gray-400">Los Altos</p>
           </div>
           <div className="bg-silver p-6 rounded-xl">
+       
+                 {/*
             <div className="flex gap-4 mb-2">
               <Instagram className="w-6 h-6 text-silver-600" />
               <Linkedin className="w-6 h-6 text-purple-600" />
               <Facebook className="w-6 h-6 text-purple-600" />
             </div>
-            {/*
+       
             <p className="text-gray-400">Social Media</p>
           */}
           </div>
