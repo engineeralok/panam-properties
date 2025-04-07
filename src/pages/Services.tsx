@@ -150,7 +150,7 @@ Property ownership should be a pleasure, not a hassle. While often straightforwa
             Ready to experience hassle-free property management? Explore our Property Management Service categories and let us handle the complexities while you enjoy the benefits of property ownership.
           </p>
           <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
-            Explore Properties
+            Lets Discuss
           </button>
         </div>
       </section>
