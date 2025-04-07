@@ -1,4 +1,5 @@
 import { Building2, Home as HomeIcon, TrendingUp, Brain, Star } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import Stats from '../components/Stats';
 import { storageUrl } from '../config';
 
@@ -66,6 +67,8 @@ const testimonials = [
 ];
 
 export default function Home() {
+  const navigate = useNavigate();
+
   return (
     <div>
       {/* Hero Section */}
@@ -76,15 +79,19 @@ export default function Home() {
               The Right Real Estate Team for Maximum Value
             </h1>
             <p className="text-navy/70">
-It's a digital-first world, and let's be honest: buyers are often finding homes online faster than agents. With sites like Zillow attracting hundreds of millions of visitors monthly, today's buyers and sellers are incredibly well-informed. This reality demands a new approach. As your agent, I offer more than just listings; I enhance your search by providing expert filtering, navigating complex contracts and negotiations, and identifying potential red flags that online photos can't reveal. Ultimately, it's a team effort, built on personalized service, that fosters a long-term, trusted advisory relationship.
+              It's a digital-first world, and let's be honest: buyers are often finding homes online faster than agents. With sites like Zillow attracting hundreds of millions of visitors monthly, today's buyers and sellers are incredibly well-informed. This reality demands a new approach. As your agent, I offer more than just listings; I enhance your search by providing expert filtering, navigating complex contracts and negotiations, and identifying potential red flags that online photos can't reveal. Ultimately, it's a team effort, built on personalized service, that fosters a long-term, trusted advisory relationship.
 
-The sheer scope of the real estate market, contributing a significant 15-18% to our GDP, highlights the importance of making informed decisions. Buying a home isn't just a transaction; it's a life-defining moment. Whether you're seeking a single-family home, a luxury condo, or a unique California property, Panam Properties is your dedicated team. With over 20 years of experience as top-tier agents and brokers, we specialize in buying, selling, and investing across diverse property types, including land development and distressed properties. Our strategic, results-driven approach ensures you get the best possible deal.
+              The sheer scope of the real estate market, contributing a significant 15-18% to our GDP, highlights the importance of making informed decisions. Buying a home isn't just a transaction; it's a life-defining moment. Whether you're seeking a single-family home, a luxury condo, or a unique California property, Panam Properties is your dedicated team. With over 20 years of experience as top-tier agents and brokers, we specialize in buying, selling, and investing across diverse property types, including land development and distressed properties. Our strategic, results-driven approach ensures you get the best possible deal.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
+              <button
+                onClick={() => navigate('/properties')}
+                className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
                 Explore Properties
               </button>
-              <button className="border border-gold text-gold px-6 py-3 rounded-lg hover:bg-gold/10">
+              <button
+                onClick={() => navigate('/services')}
+                className="border border-gold text-gold px-6 py-3 rounded-lg hover:bg-gold/10">
                 Learn More
               </button>
             </div>
@@ -197,7 +204,10 @@ The sheer scope of the real estate market, contributing a significant 15-18% to 
           <h2 className="text-2xl font-bold mb-4 text-navy">Want to learn more?</h2>
           <p className="text-navy/70 mb-6">
             Whether you're ready to explore properties, discuss your real estate goals, or need guidance on tax matters, we're here to help. Reach out anytime for a conversation          </p>
-          <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
+          <button
+            onClick={() => navigate('/about')}
+            className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90"
+          >
             Start Your Search
           </button>
         </div>
