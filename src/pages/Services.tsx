@@ -4,13 +4,13 @@ import ServiceCard from '../components/ServiceCard';
 
 const services = [
   {
-    title: 'Valuation Mastery',
+    title: 'Data-Driven Valuation',
     description: 'Discover the true worth of your property with our expert valuation services.',
     icon: <BarChart3 className="w-8 h-8" />,
     features: [
       'Comprehensive market analysis',
       'Professional property assessment',
-      'Detailed valuation report',
+      'Valuation sheet with comparables',
       'Regular market updates'
     ]
   },
@@ -26,7 +26,7 @@ const services = [
     ]
   },
   {
-    title: 'Negotiation Wizardry',
+    title: 'Strategic Dealmaking',
     description: 'Negotiating the best deal is an art, and our negotiation experts are masters of it.',
     icon: <Briefcase className="w-8 h-8" />,
     features: [
@@ -118,9 +118,9 @@ And to truly maximize your home's value, presentation is key. We go beyond simpl
 
       {/* Property Selling Services */}
       <section className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-4">Unlock Property Value</h2>
+        <h2 className="text-3xl font-bold mb-4">Facilitating Real Estate Transactions</h2>
         <p className="text-gray-400 mb-8">
-          Selling your property should be a rewarding experience, and at Panam-Properties, we make sure it is. Our Property Selling Service is designed to maximize the value of your property, ensuring you get the best deal possible. Explore the categories below to see how we can help at every step of your selling journey.
+Whether you're looking to sell your current property or find your next dream home, Panam-Properties is here to make the experience rewarding. Our comprehensive Real Estate Services are tailored to maximize your success, ensuring you achieve your goals with confidence. Explore the categories below to see how we can assist you at every stage of your buying or selling journey.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
