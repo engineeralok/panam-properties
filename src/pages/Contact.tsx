@@ -145,26 +145,30 @@ export default function Contact() {
               landscape. Our regional offices are strategically located to best serve our customers.
             </p>
             <div className="space-y-4 mb-6">
+              
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-purple-600" />
                 <span>regional@Panam-Properties.com</span>
               </div>
+              
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-purple-600" />
                 <span>+1 (555) 987-6543</span>
               </div>
+            
               <div className="flex items-center gap-2">
                 <MapPin className="w-5 h-5 text-purple-600" />
                 <span>Metropolis</span>
               </div>
+          
             </div>
             <button className="w-full bg-purple-600 px-6 py-3 rounded-lg hover:bg-purple-700">
               Get Direction
             </button>
+
           </div>
         </div>
       </section>
-
 */}
     
       {/* Company Gallery */}
