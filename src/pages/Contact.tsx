@@ -5,9 +5,9 @@ export default function Contact() {
     <div className="py-20 space-y-20">
       {/* Hero Section */}
       <section className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-4">Get in Touch with Panam-Properties</h1>
+        <h1 className="text-4xl font-bold mb-4">Get in Touch with Panam Properties</h1>
         <p className="text-gray-400 max-w-2xl">
-          Welcome to Panam-Properties's Contact Us page. We're here to assist you with any inquiries, requests, or feedback you may have. Whether you're looking to buy or sell a property, explore investment opportunities, or simply want to connect, send us a message below.
+          We're here to assist you with any inquiries, requests, or feedback you may have. Whether you're looking to buy or sell a property, explore investment opportunities, or simply want to connect, send us a message below.
         </p>
       </section>
 
@@ -16,22 +16,23 @@ export default function Contact() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="bg-silver p-6 rounded-xl">
             <Mail className="w-6 h-6 text-purple-600 mb-2" />
-            <p className="text-gray-400">info@Panam-Properties.com</p>
+            <p className="text-gray-400">info@panam-properties.com</p>
           </div>
           <div className="bg-silver p-6 rounded-xl">
             <Phone className="w-6 h-6 text-purple-600 mb-2" />
-            <p className="text-gray-400">+1 (555) 123-4567</p>
+            <p className="text-gray-400">+1 (510) 697-4274</p>
           </div>
           <div className="bg-silver p-6 rounded-xl">
             <MapPin className="w-6 h-6 text-purple-600 mb-2" />
-            <p className="text-gray-400">Main Headquarters</p>
+            <p className="text-gray-400">Los Altos</p>
           </div>
-          <div className="bg-silver p-6 rounded-xl">
+          <div className="bg-silver p-6 rounded-xl">  
             <div className="flex gap-4 mb-2">
               <Instagram className="w-6 h-6 text-silver-600" />
               <Linkedin className="w-6 h-6 text-purple-600" />
               <Facebook className="w-6 h-6 text-purple-600" />
             </div>
+       
             <p className="text-gray-400">Social Media</p>
           </div>
         </div>
@@ -101,7 +102,7 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Office Locations */}
+      {/* Office Locations   */}
       <section className="container mx-auto px-4">
         <h2 className="text-2xl font-bold mb-8">Discover Our Office Locations</h2>
         <div className="grid md:grid-cols-2 gap-8">
@@ -116,7 +117,7 @@ export default function Contact() {
             <div className="space-y-4 mb-6">
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-purple-600" />
-                <span>info@Panam-Properties.com</span>
+                <span>info@panam-properties.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-purple-600" />
@@ -141,26 +142,32 @@ export default function Contact() {
               landscape. Our regional offices are strategically located to best serve our customers.
             </p>
             <div className="space-y-4 mb-6">
+              
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-purple-600" />
                 <span>regional@Panam-Properties.com</span>
               </div>
+              
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-purple-600" />
                 <span>+1 (555) 987-6543</span>
               </div>
+            
               <div className="flex items-center gap-2">
                 <MapPin className="w-5 h-5 text-purple-600" />
                 <span>Metropolis</span>
               </div>
+          
             </div>
             <button className="w-full bg-purple-600 px-6 py-3 rounded-lg hover:bg-purple-700">
               Get Direction
             </button>
+
           </div>
         </div>
       </section>
 
+    
       {/* Company Gallery */}
       <section className="container mx-auto px-4">
         <h2 className="text-2xl font-bold mb-8">Explore Panam-Properties's World</h2>
@@ -192,12 +199,12 @@ export default function Contact() {
       {/* CTA Section */}
       <section className="container mx-auto px-4">
         <div className="bg-silver rounded-xl p-8 text-center">
-          <h2 className="text-2xl font-bold mb-4">Start Your Real Estate Journey Today</h2>
+          <h2 className="text-2xl font-bold mb-4"> Lets Discuss</h2>
           <p className="text-navy/70 mb-6 max-w-2xl mx-auto">
-            Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Panam-Properties is here to assist you every step of the way.
+        Have an idea you'd like to explore? Reach out! We can discuss it, offer some insights, and help you map out your next steps.
           </p>
           <button className="bg-gold px-6 py-3 rounded-lg hover:bg-gold/90">
-            Explore Properties
+            Contact Us
           </button>
         </div>
       </section>

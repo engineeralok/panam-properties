@@ -5,23 +5,23 @@ import { storageUrl } from '../config';
 
 const stats = [
   { value: '200+', label: 'Happy Customers' },
-  { value: '1,000+', label: 'Properties for Clients' },
+  { value: '500+', label: 'Properties for Clients' },
   { value: '20+', label: 'Years of Experience' },
 ];
 
 const properties = [
   {
     id: 1,
-    title: 'Seaside Serenity Villa',
+    title: 'Get me the cheapest house for my growing family!',
     image: `${storageUrl}/src/assets/property_1.jpg`,
     bedrooms: 4,
     bathrooms: 3,
     area: 2211,
-    description: 'We recently represented a buyer in the acquisition of a home, successfully resolving challenges related to a solar lease and a distressed seller. We also negotiated a rent-back agreement to benefit our client.'
+    description: 'We recently represented a buyer in the acquisition of a home, successfully resolving challenges related to a solar lease and a distressed seller. We also negotiated a rent-back agreement to benefit our client. Got them a good sized home for a good price.'
   },
   {
     id: 2,
-    title: 'Metropolitan Haven',
+    title: 'Downsize Me',
     image: `${storageUrl}/src/assets/property_2.jpg`,
     bedrooms: 4,
     bathrooms: 3,
@@ -30,7 +30,7 @@ const properties = [
   },
   {
     id: 3,
-    title: 'Rustic Refined Cottage',
+    title: 'CA Corporate Home for Multi-National',
     image: `${storageUrl}/src/assets/property_3.jpg`,
     bedrooms: 6,
     bathrooms: 5,
@@ -42,25 +42,25 @@ const properties = [
 const testimonials = [
   {
     id: 1,
-    name: 'Wade Warren',
-    role: 'CEO, Gainline',
-    content: 'Working with this team made the home-buying process so much easier! They provided us with an organized system for tracking properties, setting up showings, and taking actionable steps to secure the deal. Their structured approach helped us stay focused, compare options clearly, and make confident decisions. We felt supported every step of the way, and their expertise truly simplified what could have been an overwhelming experience',
+    name: 'Jim Bianco',
+    role: 'Buyer',
+    content: 'I\'m not a first time buyer so I was able to do most of the initial filtering on my own. I enjoyed how we both looked at numbers and had a rational approach to this otherwise emotional process. We were able to frame our offer with the knowledge of the market that they helped uncover which was convincing to my seller.  Their structured approach helped us stay focused, compare options clearly, and make confident decisions.',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=100&h=100&q=80'
   },
   {
     id: 2,
     name: 'Emilie Thomson',
-    role: 'Tech Director',
-    content: 'This team exceeded our expectations! They were incredibly transparent about fees and worked with us to find a favorable arrangement without ever compromising on service quality. Their dedication to our needs was evident in every interaction—they went above and beyond to ensure we felt informed and empowered throughout the process. It’s rare to find such honesty and commitment in this industry, and we’re so glad we chose them!',
+    role: 'Office Manager',
+    content: 'It started as a no pressure search. We didn\'t quite know the space we needed, but over time we started to refine our search, made offers and ultimately got our new office. Appreciated the questions they introduced as far as commercial code compliance and terms for us to negotiate off of to get the right space for us. Would recommend to others.',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80'
   },
   {
     id: 3,
-    name: 'John Nora',
-    role: 'CFO, Nexbase',
-    content: 'What truly sets this team apart is their willingness to go the extra mile—even putting up their own capital to address short-term funding issues so we could secure our dream home. They also coordinated everything to get the house move-in ready, including managing significant rehab work. Their resourcefulness and dedication turned what seemed like an impossible situation into a seamless transition for our family. We couldn’t be happier with the results!',
+    name: 'Aarav Verma',
+    role: 'Buyer',
+    content: 'What truly sets this team apart is their willingness to go the extra mile—even putting up their own capital to address short-term funding issues so we could secure our home. They also coordinated everything to get the house move-in ready, including managing significant rehab work. Their resourcefulness and dedication turned what seemed like an impossible situation into a seamless transition for our family. We couldn’t be happier with the results!',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&h=100&q=80'
   },
@@ -79,10 +79,10 @@ export default function Home() {
               The Right Real Estate Team for Maximum Value
             </h1>
             <p className="text-navy/70">
-              It's a digital-first world, and let's be honest: buyers are often finding homes online faster than agents. With sites like Zillow attracting hundreds of millions of visitors monthly, today's buyers and sellers are incredibly well-informed. This reality demands a new approach. As your agent, I offer more than just listings; I enhance your search by providing expert filtering, navigating complex contracts and negotiations, and identifying potential red flags that online photos can't reveal. Ultimately, it's a team effort, built on personalized service, that fosters a long-term, trusted advisory relationship.
-
-              The sheer scope of the real estate market, contributing a significant 15-18% to our GDP, highlights the importance of making informed decisions. Buying a home isn't just a transaction; it's a life-defining moment. Whether you're seeking a single-family home, a luxury condo, or a unique California property, Panam Properties is your dedicated team. With over 20 years of experience as top-tier agents and brokers, we specialize in buying, selling, and investing across diverse property types, including land development and distressed properties. Our strategic, results-driven approach ensures you get the best possible deal.
+              It's a digital-first world, and let's be honest: buyers are often finding homes online faster than agents. With sites like Zillow attracting hundreds of millions of visitors monthly, today's buyers and sellers are incredibly well-informed. This reality demands a new approach. As your agent, we offer more than just listings; we enhance your search by providing expert filtering, navigating complex contracts and negotiations, and identifying potential red flags that online photos can't reveal. We have at times arranged for outside capital or added our own to bridge deals to help get things done for our clients. Our flexible fees reflect a collaborative spirit, where teamwork and personalized service cultivate a lasting, trusted advisory relationship
             </p>
+            <p className="text-navy/70">
+              Whether you're seeking a single-family home, a luxury condo, or a unique California property, we can help. With over 20 years of experience we specialize in buying, selling, and investing across diverse property types, notes, hard money, land development and auction homes. Our strategic, results-driven approach ensures you get the best possible deal.            </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => navigate('/properties')}

@@ -66,13 +66,13 @@ const team = [
     id: 1,
     name: 'Ashish Patel',
     role: 'Broker, Agent',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80',
+    image: 'https://fourgatescapital.com/assets/Ashish.jpg?auto=format&fit=crop&w=800&q=80',
   },
   {
     id: 2,
     name: 'Pravin Patel',
     role: 'Agent',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
+    image: 'src/assets/pravin patel.jpg?auto=format&fit=crop&w=800&q=80',
   },
   {
     id: 3,
@@ -176,7 +176,7 @@ export default function About() {
       {/* Add CTA Section */}
       <section className="container mx-auto px-4">
         <div className="bg-silver rounded-xl p-8 text-center shadow-lg border border-silver/20">
-          <h2 className="text-2xl font-bold mb-4 text-navy">Call Anytime</h2>
+          <h2 className="text-2xl font-bold mb-4 text-navy">Call or Text Anytime</h2>
           <p className="text-navy/70 mb-6">
             Have an idea you'd like to explore? Reach out! We can discuss it, offer some insights, and help you map out your next steps.
           </p>

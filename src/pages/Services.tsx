@@ -4,13 +4,13 @@ import ServiceCard from '../components/ServiceCard';
 
 const services = [
   {
-    title: 'Valuation Mastery',
+    title: 'Data-Driven Valuation',
     description: 'Discover the true worth of your property with our expert valuation services.',
     icon: <BarChart3 className="w-8 h-8" />,
     features: [
       'Comprehensive market analysis',
       'Professional property assessment',
-      'Detailed valuation report',
+      'Valuation sheet with comparables',
       'Regular market updates'
     ]
   },
@@ -26,7 +26,7 @@ const services = [
     ]
   },
   {
-    title: 'Negotiation Wizardry',
+    title: 'Strategic Dealmaking',
     description: 'Negotiating the best deal is an art, and our negotiation experts are masters of it.',
     icon: <Briefcase className="w-8 h-8" />,
     features: [
@@ -105,11 +105,11 @@ export default function Services() {
           <h1 className="text-4xl font-bold mb-4">Elevate Your Real Estate Experience</h1>
           <p className="text-gray-400">
 
-            In today's real estate landscape, the journey begins online. That's why we prioritize crafting compelling digital appeal for every listing – because first impressions are formed on screens, long before a buyer sets foot inside. Our team blends stunning content with deep market expertise to showcase your property's unique story and unlock its full investment potential.
+            In today's real estate landscape, the journey begins online. That's why we prioritize crafting compelling digital appeal for every listing – because first impressions are formed on screens, long before a buyer sets foot inside. We blend stunning content with market expertise to showcase your property's unique story and unlock its full investment potential.
 
-            But attracting attention is only part of the equation. Setting the right price isn't guesswork; it's a data-driven strategy. We meticulously analyze market trends and comparable sales to craft a pricing strategy that tells your property's value story, ensuring you capture top dollar from the moment it hits the market.
+            But attracting attention is only part of the equation. Setting the right price isn't guesswork; it's a data-driven strategy. We analyze market trends and comparable sales to craft a pricing strategy that tells your property's value story, ensuring you capture top dollar from the moment it hits the market.
 
-            And to truly maximize your home's value, presentation is key. We go beyond simply listing your property. Our team analyzes every aspect of its condition, pinpointing opportunities for strategic improvements based on current market expectations. This allows us to craft a tailored preparation strategy, ensuring your home resonates with buyers and achieves the highest possible return.
+            And to truly maximize your home's value, presentation is key. We go beyond simply listing your property. We consider its condition, pinpointing opportunities for strategic improvements based on current market expectations. This allows us to craft a tailored preparation strategy, ensuring your home resonates with buyers and achieves the highest possible return.
 
 
           </p>
@@ -118,9 +118,9 @@ export default function Services() {
 
       {/* Property Selling Services */}
       <section className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-4">Unlock Property Value</h2>
+        <h2 className="text-3xl font-bold mb-4">Facilitating Real Estate Transactions</h2>
         <p className="text-gray-400 mb-8">
-          Selling your property should be a rewarding experience, and at Panam-Properties, we make sure it is. Our Property Selling Service is designed to maximize the value of your property, ensuring you get the best deal possible. Explore the categories below to see how we can help at every step of your selling journey.
+          Whether you're looking to sell your current property or find your next dream home, Panam-Properties is here to make the experience rewarding. Our comprehensive Real Estate Services are tailored to maximize your success, ensuring you achieve your goals with confidence. Explore the categories below to see how we can assist you at every stage of your buying or selling journey.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
@@ -133,7 +133,7 @@ export default function Services() {
       <section className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-4">Effortless Property Management</h2>
         <p className="text-gray-400 mb-8">
-          Owning a property should be a pleasure, not a hassle. Panam-Properties's Property Management Service takes the stress out of property ownership, offering comprehensive solutions tailored to your needs. Explore the categories below to see how we can make property management effortless for you.
+          Property ownership should be a pleasure, not a hassle. While often straightforward, occasional pitfalls can arise. Panam-Properties's Property Management Service removes the stress, offering tailored and comprehensive solutions. Explore the categories below to see how we can make property management effortless for you.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {managementServices.map((service, index) => (
@@ -150,7 +150,7 @@ export default function Services() {
             Ready to experience hassle-free property management? Explore our Property Management Service categories and let us handle the complexities while you enjoy the benefits of property ownership.
           </p>
           <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
-            Explore Properties
+            Lets Discuss
           </button>
         </div>
       </section>
