@@ -26,9 +26,7 @@ export default function Contact() {
             <MapPin className="w-6 h-6 text-purple-600 mb-2" />
             <p className="text-gray-400">Los Altos</p>
           </div>
-          <div className="bg-silver p-6 rounded-xl">
-       
-                 {/*
+          <div className="bg-silver p-6 rounded-xl">  
             <div className="flex gap-4 mb-2">
               <Instagram className="w-6 h-6 text-silver-600" />
               <Linkedin className="w-6 h-6 text-purple-600" />
@@ -36,7 +34,6 @@ export default function Contact() {
             </div>
        
             <p className="text-gray-400">Social Media</p>
-          */}
           </div>
         </div>
       </section>
@@ -202,12 +199,12 @@ export default function Contact() {
       {/* CTA Section */}
       <section className="container mx-auto px-4">
         <div className="bg-silver rounded-xl p-8 text-center">
-          <h2 className="text-2xl font-bold mb-4">Start Your Real Estate Journey Today</h2>
+          <h2 className="text-2xl font-bold mb-4"> Lets Discuss</h2>
           <p className="text-navy/70 mb-6 max-w-2xl mx-auto">
-            Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Panam-Properties is here to assist you every step of the way.
+        Have an idea you'd like to explore? Reach out! We can discuss it, offer some insights, and help you map out your next steps.
           </p>
           <button className="bg-gold px-6 py-3 rounded-lg hover:bg-gold/90">
-            Explore Properties
+            Contact Us
           </button>
         </div>
       </section>
