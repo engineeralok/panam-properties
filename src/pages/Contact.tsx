@@ -5,9 +5,9 @@ export default function Contact() {
     <div className="py-20 space-y-20">
       {/* Hero Section */}
       <section className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-4">Get in Touch with Panam-Properties</h1>
+        <h1 className="text-4xl font-bold mb-4">Get in Touch with Panam Properties</h1>
         <p className="text-gray-400 max-w-2xl">
-          Welcome to Panam-Properties's Contact Us page. We're here to assist you with any inquiries, requests, or feedback you may have. Whether you're looking to buy or sell a property, explore investment opportunities, or simply want to connect, send us a message below.
+          We're here to assist you with any inquiries, requests, or feedback you may have. Whether you're looking to buy or sell a property, explore investment opportunities, or simply want to connect, send us a message below.
         </p>
       </section>
 
@@ -16,15 +16,15 @@ export default function Contact() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="bg-silver p-6 rounded-xl">
             <Mail className="w-6 h-6 text-purple-600 mb-2" />
-            <p className="text-gray-400">info@Panam-Properties.com</p>
+            <p className="text-gray-400">info@panam-properties.com</p>
           </div>
           <div className="bg-silver p-6 rounded-xl">
             <Phone className="w-6 h-6 text-purple-600 mb-2" />
-            <p className="text-gray-400">+1 (555) 123-4567</p>
+            <p className="text-gray-400">+1 (510) 697-4274</p>
           </div>
           <div className="bg-silver p-6 rounded-xl">
             <MapPin className="w-6 h-6 text-purple-600 mb-2" />
-            <p className="text-gray-400">Main Headquarters</p>
+            <p className="text-gray-400">Los Altos</p>
           </div>
           <div className="bg-silver p-6 rounded-xl">
             <div className="flex gap-4 mb-2">
@@ -32,7 +32,9 @@ export default function Contact() {
               <Linkedin className="w-6 h-6 text-purple-600" />
               <Facebook className="w-6 h-6 text-purple-600" />
             </div>
+            {/*
             <p className="text-gray-400">Social Media</p>
+          */}
           </div>
         </div>
       </section>
