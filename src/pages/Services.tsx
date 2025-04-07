@@ -133,7 +133,7 @@ Whether you're looking to sell your current property or find your next dream hom
       <section className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-4">Effortless Property Management</h2>
         <p className="text-gray-400 mb-8">
-          Owning a property should be a pleasure, not a hassle. Panam-Properties's Property Management Service takes the stress out of property ownership, offering comprehensive solutions tailored to your needs. Explore the categories below to see how we can make property management effortless for you.
+Property ownership should be a pleasure, not a hassle. While often straightforward, occasional pitfalls can arise. Panam-Properties's Property Management Service removes the stress, offering tailored and comprehensive solutions. Explore the categories below to see how we can make property management effortless for you.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {managementServices.map((service, index) => (
