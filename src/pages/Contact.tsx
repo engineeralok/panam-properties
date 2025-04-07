@@ -105,7 +105,7 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Office Locations 
+      {/* Office Locations   */}
       <section className="container mx-auto px-4">
         <h2 className="text-2xl font-bold mb-8">Discover Our Office Locations</h2>
         <div className="grid md:grid-cols-2 gap-8">
@@ -120,7 +120,7 @@ export default function Contact() {
             <div className="space-y-4 mb-6">
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-purple-600" />
-                <span>info@Panam-Properties.com</span>
+                <span>info@panam-properties.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-purple-600" />
@@ -169,7 +169,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
-*/}
+
     
       {/* Company Gallery */}
       <section className="container mx-auto px-4">
