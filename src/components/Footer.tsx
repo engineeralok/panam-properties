@@ -32,7 +32,7 @@ export default function Footer() {
               <li><Link to="/services" className="hover:text-gold">Services</Link></li>
             </ul>
           </div>
-          <div>
+          {/* <div>
             <h4 className="font-bold mb-4">Services</h4>
             <ul className="space-y-2 text-silver">
               <li><a href="#" className="hover:text-gold">Property Management</a></li>
@@ -40,7 +40,7 @@ export default function Footer() {
               <li><a href="#" className="hover:text-gold">Market Analysis</a></li>
               <li><a href="#" className="hover:text-gold">Property Valuation</a></li>
             </ul>
-          </div>
+          </div> */}
           <div>
             <h4 className="font-bold mb-4">Contact Info</h4>
             <ul className="space-y-2 text-silver">
