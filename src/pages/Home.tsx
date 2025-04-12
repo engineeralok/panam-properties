@@ -60,7 +60,7 @@ const testimonials = [
     id: 3,
     name: 'Aarav Verma',
     role: 'Buyer',
-    content: 'What truly sets this team apart is their willingness to go the extra mile—even putting up their own capital to address short-term funding issues so we could secure our home. They also coordinated everything to get the house move-in ready, including managing significant rehab work. Their resourcefulness and dedication turned what seemed like an impossible situation into a seamless transition for our family. We couldn’t be happier with the results!',
+    content: 'What truly sets this team apart is their willingness to go the extra mile. They put up their own capital to address short-term funding issues so we could secure our home. They also coordinated everything to get the house move-in ready, including managing significant rehab work. Their resourcefulness and dedication turned what seemed like an impossible situation into a seamless transition for our family.',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&h=100&q=80'
   },
@@ -203,9 +203,10 @@ export default function Home() {
         <div className="bg-silver rounded-xl p-8 text-center shadow-lg border border-silver/20">
           <h2 className="text-2xl font-bold mb-4 text-navy">Want to learn more?</h2>
           <p className="text-navy/70 mb-6">
-            Whether you're ready to explore properties, discuss your real estate goals, or need guidance on tax matters, we're here to help. Reach out anytime for a conversation          </p>
+            Whether you're ready to explore properties, discuss your real estate goals, or need guidance on tax matters, we're here to help. Reach out anytime for a conversation.
+          </p>
           <button
-            onClick={() => navigate('/about')}
+            onClick={() => navigate('/contact')}
             className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90"
           >
             Start Your Search

@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -13,7 +13,7 @@ export default function Contact() {
 
       {/* Contact Methods */}
       <section className="container mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           <div className="bg-silver p-6 rounded-xl">
             <Mail className="w-6 h-6 text-purple-600 mb-2" />
             <p className="text-gray-400">info@panam-properties.com</p>
@@ -25,15 +25,6 @@ export default function Contact() {
           <div className="bg-silver p-6 rounded-xl">
             <MapPin className="w-6 h-6 text-purple-600 mb-2" />
             <p className="text-gray-400">Los Altos</p>
-          </div>
-          <div className="bg-silver p-6 rounded-xl">  
-            <div className="flex gap-4 mb-2">
-              <Instagram className="w-6 h-6 text-silver-600" />
-              <Linkedin className="w-6 h-6 text-purple-600" />
-              <Facebook className="w-6 h-6 text-purple-600" />
-            </div>
-       
-            <p className="text-gray-400">Social Media</p>
           </div>
         </div>
       </section>
@@ -102,11 +93,11 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Office Locations   */}
+      {/* Office Locations - Commented out as requested */}
+      {/* 
       <section className="container mx-auto px-4">
         <h2 className="text-2xl font-bold mb-8">Discover Our Office Locations</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Main Headquarters */}
           <div className="bg-silver p-8 rounded-xl">
             <h3 className="text-xl font-bold mb-4">Main Headquarters</h3>
             <p className="text-lg mb-2">123 Panam-Properties Plaza, City Center, Metropolis</p>
@@ -133,7 +124,6 @@ export default function Contact() {
             </button>
           </div>
 
-          {/* Regional Office */}
           <div className="bg-silver p-8 rounded-xl">
             <h3 className="text-xl font-bold mb-4">Regional Office</h3>
             <p className="text-lg mb-2">456 Urban Avenue, Downtown District, Metropolis</p>
@@ -142,32 +132,27 @@ export default function Contact() {
               landscape. Our regional offices are strategically located to best serve our customers.
             </p>
             <div className="space-y-4 mb-6">
-              
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-purple-600" />
                 <span>regional@Panam-Properties.com</span>
               </div>
-              
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-purple-600" />
                 <span>+1 (555) 987-6543</span>
               </div>
-            
               <div className="flex items-center gap-2">
                 <MapPin className="w-5 h-5 text-purple-600" />
                 <span>Metropolis</span>
               </div>
-          
             </div>
             <button className="w-full bg-purple-600 px-6 py-3 rounded-lg hover:bg-purple-700">
               Get Direction
             </button>
-
           </div>
         </div>
       </section>
+      */}
 
-    
       {/* Company Gallery */}
       <section className="container mx-auto px-4">
         <h2 className="text-2xl font-bold mb-8">Explore Panam-Properties's World</h2>
@@ -201,7 +186,7 @@ export default function Contact() {
         <div className="bg-silver rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold mb-4"> Lets Discuss</h2>
           <p className="text-navy/70 mb-6 max-w-2xl mx-auto">
-        Have an idea you'd like to explore? Reach out! We can discuss it, offer some insights, and help you map out your next steps.
+            Have an idea you'd like to explore? Reach out! We can discuss it, offer some insights, and help you map out your next steps.
           </p>
           <button className="bg-gold px-6 py-3 rounded-lg hover:bg-gold/90">
             Contact Us

@@ -54,7 +54,7 @@ export default function Properties() {
       </section>
 
       <section className="container mx-auto px-4">
-        <h2 className="text-2xl font-bold mb-8">Discover a World of Possibilities</h2>
+        <h2 className="text-2xl font-bold mb-8">Explore Panam-Properties's World</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {properties.map(property => (
             <PropertyCard key={property.id} property={property} />
@@ -68,8 +68,10 @@ export default function Properties() {
           <p className="text-navy/70 mb-6">
             Have an idea you'd like to explore? Reach out! We can discuss it, offer some insights, and help you map out your next steps.
           </p>
-          <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
-            Contact an Agent
+          <button
+            onClick={() => window.location.href = '/contact'}
+            className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
+            Contact Us
           </button>
         </div>
       </section>
