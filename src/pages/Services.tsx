@@ -149,7 +149,9 @@ export default function Services() {
           <p className="text-navy/70 mb-6">
             Ready to experience hassle-free property management? Explore our Property Management Service categories and let us handle the complexities while you enjoy the benefits of property ownership.
           </p>
-          <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
+          <button
+            onClick={() => window.location.href = '/contact'}
+            className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
             Lets Discuss
           </button>
         </div>

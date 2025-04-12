@@ -180,7 +180,9 @@ export default function About() {
           <p className="text-navy/70 mb-6">
             Have an idea you'd like to explore? Reach out! We can discuss it, offer some insights, and help you map out your next steps.
           </p>
-          <button className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
+          <button
+            onClick={() => window.location.href = '/contact'}
+            className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
             Let's Discuss
           </button>
         </div>

@@ -53,11 +53,46 @@ export default function Properties() {
         </div>
       </section>
 
-      <section className="container mx-auto px-4">
+      {/* <section className="container mx-auto px-4">
         <h2 className="text-2xl font-bold mb-8">Explore Panam-Properties's World</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {properties.map(property => (
             <PropertyCard key={property.id} property={property} />
+          ))}
+        </div>
+      </section> */}
+
+      {/* Recent Activity */}
+      <section className="container mx-auto px-4 py-20">
+        <div className="flex flex-col sm:flex-row justify-between items-center mb-12">
+          <h2 className="text-3xl font-bold mb-4 sm:mb-0">Recent Activity</h2>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {properties.map(property => (
+            <div key={property.id} className="bg-silver rounded-xl overflow-hidden">
+              <img
+                src={property.image}
+                alt={property.title}
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">{property.title}</h3>
+                <p className="text-navy/70 mb-4">{property.description}</p>
+                <div className="flex flex-wrap justify-between items-center mb-4">
+                  <div className="flex flex-wrap gap-4">
+                    <span className="text-navy/70">{property.bedrooms} Bedroom</span>
+                    <span className="text-navy/70">{property.bathrooms} Bathroom</span>
+                    <span className="text-navy/70">{property.area} Sqft</span>
+                  </div>
+                </div>
+                <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+                  {/* <span className="text-2xl font-bold text-navy">${property.price.toLocaleString()}</span> */}
+                  {/* <button className="bg-gold px-4 py-2 rounded-lg hover:bg-gold/90 w-full sm:w-auto text-white">
+                    View Property Details
+                  </button> */}
+                </div>
+              </div>
+            </div>
           ))}
         </div>
       </section>

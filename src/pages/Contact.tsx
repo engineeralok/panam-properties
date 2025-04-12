@@ -11,7 +11,7 @@ export default function Contact() {
         </p>
       </section>
 
-      {/* Contact Methods */}
+      {/* Contact Methods
       <section className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           <div className="bg-silver p-6 rounded-xl">
@@ -27,10 +27,10 @@ export default function Contact() {
             <p className="text-gray-400">Los Altos</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Form */}
-      <section className="container mx-auto px-4">
+      {/* <section className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-8">Let's Connect</h2>
           <form className="space-y-6">
@@ -91,7 +91,7 @@ export default function Contact() {
             </button>
           </form>
         </div>
-      </section>
+      </section> */}
 
       {/* Office Locations - Commented out as requested */}
       {/* 
@@ -182,7 +182,7 @@ export default function Contact() {
       </section>
 
       {/* CTA Section */}
-      <section className="container mx-auto px-4">
+      {/* <section className="container mx-auto px-4">
         <div className="bg-silver rounded-xl p-8 text-center">
           <h2 className="text-2xl font-bold mb-4"> Lets Discuss</h2>
           <p className="text-navy/70 mb-6 max-w-2xl mx-auto">
@@ -192,7 +192,7 @@ export default function Contact() {
             Contact Us
           </button>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
