@@ -1,5 +1,3 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
-
 export default function Contact() {
   return (
     <div className="py-20 space-y-20">
