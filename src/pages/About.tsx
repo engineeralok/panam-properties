@@ -110,8 +110,7 @@ export default function About() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Full-Service Real Estate Brokerage In California</h1>
             <div className="text-navy/70 space-y-4">
               <p className="mb-4">
-                With more than 20 years in California real estate, Panam Properties has facilitated transactions across diverse property types. We facilitate transactions for a range of properties, including mobile homes and entitlement-required developments, focusing on delivering value to buyers and sellers.
-              </p>
+With over 20 years of experience in the California real estate market, Panam Properties has a proven track record of successfully facilitating a wide spectrum of transactions. Our expertise extends beyond traditional sales to encompass specialized areas, including mobile homes and complex entitlement-required developments. We also possess a deep understanding of the nuances involved in distressed sales and the strategic acquisition of distress notes, consistently focusing on delivering optimal value to both buyers and sellers across all property types.              </p>
               <p className="mb-4">
                 Unlike many firms, we stand apart because we are investors and brokers; we invest our own money in deals, ensuring we operate with the same level of scrutiny and care as our clients.
               </p>
