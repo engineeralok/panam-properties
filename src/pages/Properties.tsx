@@ -1,42 +1,32 @@
-import { Property } from '../components/PropertyCard';
+import { storageUrl } from "../config";
 
-
-const properties: Property[] = [
+const properties = [
   {
     id: 1,
-    title: 'Seaside Serenity Villa',
-    category: 'Coastal Escapes - Where Waves Beckon',
-    image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80',
-    price: 1250000,
+    title: 'Get me the cheapest house for my growing family!',
+    image: `${storageUrl}/src/assets/property_1.jpg`,
     bedrooms: 4,
     bathrooms: 3,
-    area: 450,
-    description: 'Welcome to the embodiment of seaside bliss. This beachfront villa offers...',
-    location: 'Malibu, California'
+    area: 2211,
+    description: 'We recently represented a buyer in the acquisition of a home, successfully resolving challenges related to a solar lease and a distressed seller. We also negotiated a rent-back agreement to benefit our client. Got them a good sized home for a good price.'
   },
   {
     id: 2,
-    title: 'Metropolitan Haven',
-    category: 'Urban Oasis - Life in the Heart of the City',
-    image: 'https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=800&q=80',
-    price: 565000,
-    bedrooms: 3,
-    bathrooms: 2,
-    area: 350,
-    description: 'Premium comfort in the energy of the city. This modern apartment is the ideal...',
-    location: 'Downtown LA'
+    title: 'Downsize Me',
+    image: `${storageUrl}/src/assets/property_2.jpg`,
+    bedrooms: 4,
+    bathrooms: 3,
+    area: 2000,
+    description: 'Successfully secured a smaller office space for a commercial tenant seeking to downsize while maintaining their desired location. Following a 12-month search and needs assessment, a new lease was negotiated, providing optimal flexibility for potential future changes.'
   },
   {
     id: 3,
-    title: 'Rustic Retreat Cottage',
-    category: 'Countryside Charm - Escape to Nature\'s Embrace',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80',
-    price: 380000,
-    bedrooms: 2,
-    bathrooms: 2,
-    area: 250,
-    description: 'Find tranquility in this countryside haven. This charming cottage is nestled...',
-    location: 'Vermont'
+    title: 'CA Corporate Home for Multi-National',
+    image: `${storageUrl}/src/assets/property_3.jpg`,
+    bedrooms: 6,
+    bathrooms: 5,
+    area: 9000,
+    description: 'Panam Properties provides property management services for corporate tenants, addressing requirements that extend beyond standard real estate transactions. Our services include accommodating specific needs and requests to ensure their comfort and satisfaction during their stays. We strive to deliver comprehensive support tailored to the unique demands of corporate clientele.'
   },
 ];
 

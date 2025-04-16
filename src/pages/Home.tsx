@@ -81,9 +81,9 @@ export default function Home() {
             <p className="text-navy/70">
               It's a digital-first world, and let's be honest: buyers are often finding homes online faster than agents. With sites like Zillow attracting hundreds of millions of visitors monthly, today's buyers and sellers are incredibly well-informed. This reality demands a new approach. As your agent, we offer more than just listings; we enhance your search by providing expert filtering, navigating complex contracts and negotiations, and identifying potential red flags that online photos can't reveal. We have at times arranged for outside capital or added our own to bridge deals to help get things done for our clients. Our flexible fees reflect a collaborative spirit, where teamwork and personalized service cultivate a lasting, trusted advisory relationship
             </p>
-            <p className="text-navy/70">
-              Whether you're seeking a single-family home, a luxury condo, or a unique California property, we can help. With over 20 years of experience we specialize in buying, selling, and investing across diverse property types, notes, hard money, land development and auction homes. Our strategic, results-driven approach ensures you get the best possible deal.            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            {/* <p className="text-navy/70">
+              Whether you're seeking a single-family home, a luxury condo, or a unique California property, we can help. With over 20 years of experience we specialize in buying, selling, and investing across diverse property types, notes, hard money, land development and auction homes. Our strategic, results-driven approach ensures you get the best possible deal.            </p> */}
+            {/* <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => navigate('/properties')}
                 className="bg-gold text-white px-6 py-3 rounded-lg hover:bg-gold/90">
@@ -94,7 +94,7 @@ export default function Home() {
                 className="border border-gold text-gold px-6 py-3 rounded-lg hover:bg-gold/10">
                 Learn More
               </button>
-            </div>
+            </div> */}
             <Stats stats={stats} />
           </div>
           <div className="relative">
