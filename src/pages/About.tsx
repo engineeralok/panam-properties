@@ -112,10 +112,10 @@ export default function About() {
               <p className="mb-4">
 With over 20 years of experience in the California real estate market, Panam Properties has a proven track record of successfully facilitating a wide spectrum of transactions. Our expertise extends beyond traditional sales to encompass specialized areas, including mobile homes and complex entitlement-required developments. We also possess a deep understanding of the nuances involved in distressed sales and the strategic acquisition of distress notes, consistently focusing on delivering optimal value to both buyers and sellers across all property types.              </p>
               <p className="mb-4">
-                Unlike many firms, we stand apart because we are investors and brokers; we invest our own money in deals, ensuring we operate with the same level of scrutiny and care as our clients.
+                We stand apart because we are investors and brokers; we invest our own money in deals, ensuring we operate with the same level of scrutiny and care as our clients.
               </p>
               <p>
-                Over the years, we've used our skills and experience to identify hidden opportunities in the real estate market and help our clients find what they need through exemplary brokerage services.
+                Over the years, we've used our skills and experience to identify hidden opportunities in the real estate market and help our clients find what they need through exemplary brokerage services at a competitive price. 
               </p>
             </div>
             <Stats stats={stats} />
