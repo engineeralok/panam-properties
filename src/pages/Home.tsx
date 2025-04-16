@@ -21,7 +21,7 @@ const properties = [
   },
   {
     id: 2,
-    title: 'Smaller Space',
+    title: 'Smaller Office Space',
     image: `${storageUrl}/src/assets/property_2.jpg`,
     bedrooms: 4,
     bathrooms: 3,
