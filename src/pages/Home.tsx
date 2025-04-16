@@ -12,7 +12,7 @@ const stats = [
 const properties = [
   {
     id: 1,
-    title: 'Get me the cheapest house for my growing family!',
+    title: 'Home for my growing family!',
     image: `${storageUrl}/src/assets/property_1.jpg`,
     bedrooms: 4,
     bathrooms: 3,
@@ -21,7 +21,7 @@ const properties = [
   },
   {
     id: 2,
-    title: 'Downsize Me',
+    title: 'Smaller Space',
     image: `${storageUrl}/src/assets/property_2.jpg`,
     bedrooms: 4,
     bathrooms: 3,
@@ -30,12 +30,12 @@ const properties = [
   },
   {
     id: 3,
-    title: 'CA Corporate Home for Multi-National',
+    title: 'CA Corporate Residence for Overseas Company',
     image: `${storageUrl}/src/assets/property_3.jpg`,
     bedrooms: 6,
     bathrooms: 5,
     area: 9000,
-    description: 'Panam Properties provides property management services for corporate tenants, addressing requirements that extend beyond standard real estate transactions. Our services include accommodating specific needs and requests to ensure their comfort and satisfaction during their stays. We strive to deliver comprehensive support tailored to the unique demands of corporate clientele.'
+    description: 'We provide property management services for corporate tenants, addressing requirements that extend beyond standard real estate transactions. Our services include accommodating specific needs and requests to ensure their comfort and satisfaction during their stays. We strive to deliver comprehensive support tailored to the unique demands of corporate clientele.'
   },
 ];
 
