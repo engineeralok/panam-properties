@@ -12,7 +12,7 @@ export default function Footer() {
               <Building2 className="w-8 h-8 text-gold" />
               <span className="text-xl font-bold">Panam Properties</span>
             </div>
-            <div className="flex items-center gap-2">
+            {/* <div className="flex items-center gap-2">
               <input 
                 type="email" 
                 placeholder="Enter your email" 
@@ -21,7 +21,7 @@ export default function Footer() {
               <button className="bg-gold p-2 rounded-lg hover:bg-gold/90">
                 <Send className="w-5 h-5" />
               </button>
-            </div>
+            </div> */}
           </div>
           <div>
             <h4 className="font-bold mb-4">Quick Links</h4>
@@ -52,7 +52,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gold/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-  
+
           <div className="flex gap-4">
 
           </div>
