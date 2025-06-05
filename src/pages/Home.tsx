@@ -12,7 +12,7 @@ const stats = [
 const properties = [
   {
     id: 1,
-    title: 'Get me the cheapest house for my growing family!',
+    title: 'Home for my growing family!',
     image: `${storageUrl}/src/assets/property_1.jpg`,
     bedrooms: 4,
     bathrooms: 3,
@@ -21,7 +21,7 @@ const properties = [
   },
   {
     id: 2,
-    title: 'Downsize Me',
+    title: 'Smaller Office Space',
     image: `${storageUrl}/src/assets/property_2.jpg`,
     bedrooms: 4,
     bathrooms: 3,
@@ -30,12 +30,12 @@ const properties = [
   },
   {
     id: 3,
-    title: 'CA Corporate Home for Multi-National',
+    title: 'CA Corporate Residence for Overseas Company',
     image: `${storageUrl}/src/assets/property_3.jpg`,
     bedrooms: 6,
     bathrooms: 5,
     area: 9000,
-    description: 'Panam Properties provides property management services for corporate tenants, addressing requirements that extend beyond standard real estate transactions. Our services include accommodating specific needs and requests to ensure their comfort and satisfaction during their stays. We strive to deliver comprehensive support tailored to the unique demands of corporate clientele.'
+    description: 'We provide property management services for corporate tenants, addressing requirements that extend beyond standard real estate transactions. Our services include accommodating specific needs and requests to ensure their comfort and satisfaction during their stays. We strive to deliver comprehensive support tailored to the unique demands of corporate clientele.'
   },
 ];
 
@@ -79,7 +79,7 @@ export default function Home() {
               The Right Real Estate Team for Maximum Value
             </h1>
             <p className="text-navy/70">
-              It's a digital-first world, and let's be honest: buyers are often finding homes online faster than agents. With sites like Zillow attracting hundreds of millions of visitors monthly, today's buyers and sellers are incredibly well-informed. This reality demands a new approach. As your agent, we offer more than just listings; we enhance your search by providing expert filtering, navigating complex contracts and negotiations, and identifying potential red flags that online photos can't reveal. We have at times arranged for outside capital or added our own to bridge deals to help get things done for our clients. Our flexible fees reflect a collaborative spirit, where teamwork and personalized service cultivate a lasting, trusted advisory relationship
+              It's a digital-first world, and let's be honest: buyers are often finding homes online faster than agents. With sites like Zillow attracting hundreds of millions of visitors monthly, today's buyers and sellers are incredibly well-informed. This reality demands a new approach. As your agent, we offer more than just listings; we enhance your search by providing expert filtering, navigating complex contracts and negotiations, and identifying potential red flags that online photos can't reveal. In addition, when necessary, we have arranged for outside capital or added our own to bridge deals to the finish line. Our flexible fees reflect a collaborative spirit, where teamwork and personalized service cultivate a lasting, trusted advisory relationship.
             </p>
             {/* <p className="text-navy/70">
               Whether you're seeking a single-family home, a luxury condo, or a unique California property, we can help. With over 20 years of experience we specialize in buying, selling, and investing across diverse property types, notes, hard money, land development and auction homes. Our strategic, results-driven approach ensures you get the best possible deal.            </p> */}
